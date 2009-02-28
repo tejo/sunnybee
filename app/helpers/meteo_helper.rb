@@ -1,0 +1,2 @@
+module MeteoHelper
+end

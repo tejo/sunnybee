@@ -1,0 +1,4345 @@
+
+--- 
+meteo_locations: 
+  columns: 
+  - id
+  - street_address
+  - full_address
+  - zip
+  - precision
+  - state
+  - city
+  - country_code
+  - location_id
+  - success
+  - lat
+  - lng
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - 
+    - Frosinone FR, Italy
+    - 
+    - city
+    - Latium
+    - Frosinone
+    - IT
+    - ITXX0030
+    - true
+    - "41.6401"
+    - "13.3519"
+    - 2009-02-17 14:30:38
+    - 2009-02-17 14:30:38
+  - - "2"
+    - 
+    - Lecco LC, Italy
+    - 
+    - city
+    - Lombardy
+    - Lecco
+    - IT
+    - ITXX0207
+    - true
+    - "45.853"
+    - "9.39007"
+    - 2009-02-17 14:30:38
+    - 2009-02-17 14:30:38
+  - - "3"
+    - 
+    - Francavilla Fontana BR, Italy
+    - 
+    - city
+    - Puglia
+    - Francavilla Fontana
+    - IT
+    - ITXX0237
+    - true
+    - "40.5317"
+    - "17.5861"
+    - 2009-02-17 14:30:39
+    - 2009-02-17 14:30:39
+  - - "4"
+    - 
+    - Preganziol TV, Italy
+    - 
+    - city
+    - Veneto
+    - Preganziol
+    - IT
+    - ITXX0302
+    - true
+    - "45.6022"
+    - "12.2352"
+    - 2009-02-17 14:30:39
+    - 2009-02-17 14:30:39
+  - - "5"
+    - 
+    - Imola BO, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Imola
+    - IT
+    - ITXX0032
+    - true
+    - "44.3559"
+    - "11.7161"
+    - 2009-02-17 14:30:39
+    - 2009-02-17 14:30:39
+  - - "6"
+    - 
+    - 27043 Broni PV, Italy
+    - 
+    - city
+    - Lombardy
+    - Broni
+    - IT
+    - ITXX0109
+    - true
+    - "45.0664"
+    - "9.26346"
+    - 2009-02-17 14:30:40
+    - 2009-02-17 14:30:40
+  - - "7"
+    - 
+    - Cuneo CN, Italy
+    - 
+    - city
+    - Piedmont
+    - Cuneo
+    - IT
+    - ITXX0113
+    - true
+    - "44.3888"
+    - "7.54711"
+    - 2009-02-17 14:30:40
+    - 2009-02-17 14:30:40
+  - - "8"
+    - 
+    - Riva Del Garda TN, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Riva Del Garda
+    - IT
+    - ITXX0300
+    - true
+    - "45.8881"
+    - "10.8445"
+    - 2009-02-17 14:30:41
+    - 2009-02-17 14:30:41
+  - - "9"
+    - 
+    - Vasto CH, Italy
+    - 
+    - city
+    - Abruzzi
+    - Vasto
+    - IT
+    - ITXX0165
+    - true
+    - "42.1127"
+    - "14.7096"
+    - 2009-02-17 14:30:41
+    - 2009-02-17 14:30:41
+  - - "10"
+    - 
+    - 11010 Sarre Aosta, Italy
+    - 
+    - city
+    - Aosta
+    - Sarre
+    - IT
+    - ITXX0306
+    - true
+    - "45.7192"
+    - "7.25924"
+    - 2009-02-17 14:30:42
+    - 2009-02-17 14:30:42
+  - - "11"
+    - 
+    - "Sal\xC3\xB2 BS, Italy"
+    - 
+    - city
+    - Lombardy
+    - "Sal\xC3\xB2"
+    - IT
+    - ITXX0245
+    - true
+    - "45.607"
+    - "10.5223"
+    - 2009-02-17 14:30:42
+    - 2009-02-17 14:30:42
+  - - "12"
+    - 
+    - Rivoli TO, Italy
+    - 
+    - city
+    - Piedmont
+    - Rivoli
+    - IT
+    - ITXX0066
+    - true
+    - "45.0704"
+    - "7.51985"
+    - 2009-02-17 14:30:42
+    - 2009-02-17 14:30:42
+  - - "13"
+    - 
+    - Sassari Strada Statale, Italy
+    - 
+    - city
+    - Sardinia
+    - Sassari
+    - IT
+    - ITXX0155
+    - true
+    - "40.7272"
+    - "8.55847"
+    - 2009-02-17 14:30:43
+    - 2009-02-17 14:30:43
+  - - "14"
+    - 
+    - Milano, Italy
+    - 
+    - city
+    - Lombardy
+    - Milano
+    - IT
+    - ITXX0090
+    - true
+    - "45.4637"
+    - "9.18813"
+    - 2009-02-17 14:30:43
+    - 2009-02-17 14:30:43
+  - - "15"
+    - 
+    - Cortona AR, Italy
+    - 
+    - city
+    - Tuscany
+    - Cortona
+    - IT
+    - ITXX0343
+    - true
+    - "43.2741"
+    - "11.9878"
+    - 2009-02-17 14:30:43
+    - 2009-02-17 14:30:43
+  - - "16"
+    - 
+    - Tirano Sudovest, Italy
+    - 
+    - city
+    - Lombardy
+    - Tirano
+    - IT
+    - ITXX0161
+    - true
+    - "46.2164"
+    - "10.1689"
+    - 2009-02-17 14:30:44
+    - 2009-02-17 14:30:44
+  - - "17"
+    - 
+    - Cremona CR, Italy
+    - 
+    - city
+    - Lombardy
+    - Cremona
+    - IT
+    - ITXX0025
+    - true
+    - "45.1335"
+    - "10.0261"
+    - 2009-02-17 14:30:44
+    - 2009-02-17 14:30:44
+  - - "18"
+    - 
+    - Rimini RN, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Rimini
+    - IT
+    - ITXX0148
+    - true
+    - "44.059"
+    - "12.5632"
+    - 2009-02-17 14:30:45
+    - 2009-02-17 14:30:45
+  - - "19"
+    - 
+    - Crotone KR, Italy
+    - 
+    - city
+    - Calabre
+    - Crotone
+    - IT
+    - ITXX0190
+    - true
+    - "39.0807"
+    - "17.1271"
+    - 2009-02-17 14:30:45
+    - 2009-02-17 14:30:45
+  - - "20"
+    - 
+    - Taurianova Reggio de Calabre, Italy
+    - 
+    - city
+    - Calabre
+    - Taurianova
+    - IT
+    - ITXX0230
+    - true
+    - "38.3574"
+    - "16.0117"
+    - 2009-02-17 14:30:46
+    - 2009-02-17 14:30:46
+  - - "21"
+    - 
+    - Camaiore LU, Italy
+    - 
+    - city
+    - Tuscany
+    - Camaiore
+    - IT
+    - ITXX0322
+    - true
+    - "43.9382"
+    - "10.3041"
+    - 2009-02-17 14:30:47
+    - 2009-02-17 14:30:47
+  - - "22"
+    - 
+    - Palaia PI, Italy
+    - 
+    - city
+    - Tuscany
+    - Palaia
+    - IT
+    - ITXX0345
+    - true
+    - "43.6052"
+    - "10.7743"
+    - 2009-02-17 14:30:47
+    - 2009-02-17 14:30:47
+  - - "23"
+    - 
+    - Reggello FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Reggello
+    - IT
+    - ITXX0317
+    - true
+    - "43.6822"
+    - "11.5309"
+    - 2009-02-17 14:30:48
+    - 2009-02-17 14:30:48
+  - - "24"
+    - 
+    - Novara Nordovest, Italy
+    - 
+    - city
+    - Piedmont
+    - Novara
+    - IT
+    - ITXX0053
+    - true
+    - "45.4451"
+    - "8.61867"
+    - 2009-02-17 14:30:48
+    - 2009-02-17 14:30:48
+  - - "25"
+    - 
+    - Loano SV, Italy
+    - 
+    - city
+    - Ligurie
+    - Loano
+    - IT
+    - ITXX0126
+    - true
+    - "44.1288"
+    - "8.25999"
+    - 2009-02-17 14:30:48
+    - 2009-02-17 14:30:48
+  - - "26"
+    - 
+    - Randazzo CT, Italy
+    - 
+    - city
+    - Sicily
+    - Randazzo
+    - IT
+    - ITXX0227
+    - true
+    - "37.8777"
+    - "14.9504"
+    - 2009-02-17 14:30:49
+    - 2009-02-17 14:30:49
+  - - "27"
+    - 
+    - 66040 Pizzoferrato CH, Italy
+    - 
+    - city
+    - Abruzzi
+    - Pizzoferrato
+    - IT
+    - ITXX0145
+    - true
+    - "41.9225"
+    - "14.2367"
+    - 2009-02-17 14:30:50
+    - 2009-02-17 14:30:50
+  - - "28"
+    - 
+    - Biella BI, Italy
+    - 
+    - city
+    - Piedmont
+    - Biella
+    - IT
+    - ITXX0206
+    - true
+    - "45.5628"
+    - "8.05827"
+    - 2009-02-17 14:30:50
+    - 2009-02-17 14:30:50
+  - - "29"
+    - 
+    - Lampedusa, Lampedusa e Linosa AG, Italy
+    - 
+    - city
+    - Sicily
+    - Lampedusa E Linosa
+    - IT
+    - ITXX0256
+    - true
+    - "35.5011"
+    - "12.6098"
+    - 2009-02-17 14:30:50
+    - 2009-02-17 14:30:50
+  - - "30"
+    - 
+    - Castelvetrano TP, Italy
+    - 
+    - city
+    - Sicily
+    - Castelvetrano
+    - IT
+    - ITXX0114
+    - true
+    - "37.6837"
+    - "12.7926"
+    - 2009-02-17 14:30:51
+    - 2009-02-17 14:30:51
+  - - "31"
+    - 
+    - Mondragone CE, Italy
+    - 
+    - city
+    - Campania
+    - Mondragone
+    - IT
+    - ITXX0253
+    - true
+    - "41.1152"
+    - "13.8946"
+    - 2009-02-17 14:30:51
+    - 2009-02-17 14:30:51
+  - - "32"
+    - 
+    - Pompei NA, Italy
+    - 
+    - city
+    - Campania
+    - Pompei
+    - IT
+    - ITXX0061
+    - true
+    - "40.7492"
+    - "14.5007"
+    - 2009-02-17 14:30:51
+    - 2009-02-17 14:30:51
+  - - "33"
+    - 
+    - Livorno LI, Italy
+    - 
+    - city
+    - Tuscany
+    - Livorno
+    - IT
+    - ITXX0036
+    - true
+    - "43.5519"
+    - "10.308"
+    - 2009-02-17 14:30:52
+    - 2009-02-17 14:30:52
+  - - "34"
+    - 
+    - Syracuse SR, Italy
+    - 
+    - city
+    - Sicily
+    - Syracuse
+    - IT
+    - ITXX0156
+    - true
+    - "37.0665"
+    - "15.2844"
+    - 2009-02-17 14:30:52
+    - 2009-02-17 14:30:52
+  - - "35"
+    - 
+    - Santa Teresa di Gallura, Italy
+    - 
+    - city
+    - Sardinia
+    - Santa Teresa Di Gallura
+    - IT
+    - ITXX0364
+    - true
+    - "41.2409"
+    - "9.18821"
+    - 2009-02-17 14:30:53
+    - 2009-02-17 14:30:53
+  - - "36"
+    - 
+    - Bassano Del Grappa VI, Italy
+    - 
+    - city
+    - Veneto
+    - Bassano Del Grappa
+    - IT
+    - ITXX0209
+    - true
+    - "45.7666"
+    - "11.734"
+    - 2009-02-17 14:30:53
+    - 2009-02-17 14:30:53
+  - - "37"
+    - 
+    - Anzio RM, Italy
+    - 
+    - city
+    - Latium
+    - Anzio
+    - IT
+    - ITXX0213
+    - true
+    - "41.4479"
+    - "12.6291"
+    - 2009-02-17 14:30:53
+    - 2009-02-17 14:30:53
+  - - "38"
+    - 
+    - Prizzi PA, Italy
+    - 
+    - city
+    - Sicily
+    - Prizzi
+    - IT
+    - ITXX0221
+    - true
+    - "37.722"
+    - "13.4329"
+    - 2009-02-17 14:30:54
+    - 2009-02-17 14:30:54
+  - - "39"
+    - 
+    - Moncalieri TO, Italy
+    - 
+    - city
+    - Piedmont
+    - Moncalieri
+    - IT
+    - ITXX0046
+    - true
+    - "44.9994"
+    - "7.68006"
+    - 2009-02-17 14:30:54
+    - 2009-02-17 14:30:54
+  - - "40"
+    - 
+    - Gravedona CO, Italy
+    - 
+    - city
+    - Lombardy
+    - Gravedona
+    - IT
+    - ITXX0242
+    - true
+    - "46.146"
+    - "9.3052"
+    - 2009-02-17 14:30:54
+    - 2009-02-17 14:30:54
+  - - "41"
+    - 
+    - Carmagnola TO, Italy
+    - 
+    - city
+    - Piedmont
+    - Carmagnola
+    - IT
+    - ITXX0012
+    - true
+    - "44.8455"
+    - "7.7192"
+    - 2009-02-17 14:30:55
+    - 2009-02-17 14:30:55
+  - - "42"
+    - 
+    - Ferrara FE, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Ferrara
+    - IT
+    - ITXX0027
+    - true
+    - "44.8379"
+    - "11.6204"
+    - 2009-02-17 14:30:55
+    - 2009-02-17 14:30:55
+  - - "43"
+    - 
+    - Ciampino RM, Italy
+    - 
+    - city
+    - Latium
+    - Ciampino
+    - IT
+    - ITXX0021
+    - true
+    - "41.8025"
+    - "12.6021"
+    - 2009-02-17 14:30:56
+    - 2009-02-17 14:30:56
+  - - "44"
+    - 
+    - Pitigliano GR, Italy
+    - 
+    - city
+    - Tuscany
+    - Pitigliano
+    - IT
+    - ITXX0344
+    - true
+    - "42.636"
+    - "11.6745"
+    - 2009-02-17 14:30:56
+    - 2009-02-17 14:30:56
+  - - "45"
+    - 
+    - Dicomano FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Dicomano
+    - IT
+    - ITXX0316
+    - true
+    - "43.8921"
+    - "11.5222"
+    - 2009-02-17 14:30:57
+    - 2009-02-17 14:30:57
+  - - "46"
+    - 
+    - Castelfiorentino FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Castelfiorentino
+    - IT
+    - ITXX0314
+    - true
+    - "43.611"
+    - "10.969"
+    - 2009-02-17 14:30:57
+    - 2009-02-17 14:30:57
+  - - "47"
+    - 
+    - Bojano CB, Italy
+    - 
+    - city
+    - Molise
+    - Bojano
+    - IT
+    - ITXX0108
+    - true
+    - "41.4867"
+    - "14.4739"
+    - 2009-02-17 14:30:57
+    - 2009-02-17 14:30:57
+  - - "48"
+    - 
+    - Caltagirone CT, Italy
+    - 
+    - city
+    - Sicily
+    - Caltagirone
+    - IT
+    - ITXX0255
+    - true
+    - "37.2372"
+    - "14.5132"
+    - 2009-02-17 14:30:58
+    - 2009-02-17 14:30:58
+  - - "49"
+    - 
+    - Tivoli RM, Italy
+    - 
+    - city
+    - Latium
+    - Tivoli
+    - IT
+    - ITXX0075
+    - true
+    - "41.9636"
+    - "12.7983"
+    - 2009-02-17 14:30:58
+    - 2009-02-17 14:30:58
+  - - "50"
+    - 
+    - Terracina LT, Italy
+    - 
+    - city
+    - Latium
+    - Terracina
+    - IT
+    - ITXX0159
+    - true
+    - "41.2912"
+    - "13.2489"
+    - 2009-02-17 14:30:59
+    - 2009-02-17 14:30:59
+  - - "51"
+    - 
+    - Santa Caterina Villarmosa CL, Italy
+    - 
+    - city
+    - Sicily
+    - Santa Caterina Villarmosa
+    - IT
+    - ITXX0152
+    - true
+    - "37.5909"
+    - "14.0328"
+    - 2009-02-17 14:31:00
+    - 2009-02-17 14:31:00
+  - - "52"
+    - 
+    - Monza MI, Italy
+    - 
+    - city
+    - Lombardy
+    - Monza
+    - IT
+    - ITXX0049
+    - true
+    - "45.584"
+    - "9.27301"
+    - 2009-02-17 14:31:01
+    - 2009-02-17 14:31:01
+  - - "53"
+    - 
+    - Breuil-Cervinia, Valtournenche Aosta, Italy
+    - 
+    - city
+    - Aostatal
+    - Valtournenche
+    - IT
+    - ITXX0107
+    - true
+    - "45.937"
+    - "7.62971"
+    - 2009-02-17 14:31:01
+    - 2009-02-17 14:31:01
+  - - "54"
+    - 
+    - "Cir\xC3\xB2 Marina KR, Italy"
+    - 
+    - city
+    - Calabre
+    - "Cir\xC3\xB2 Marina"
+    - IT
+    - ITXX0234
+    - true
+    - "39.3708"
+    - "17.1315"
+    - 2009-02-17 14:31:01
+    - 2009-02-17 14:31:01
+  - - "55"
+    - 
+    - Modica RG, Italy
+    - 
+    - city
+    - Sicily
+    - Modica
+    - IT
+    - ITXX0232
+    - true
+    - "36.8589"
+    - "14.7609"
+    - 2009-02-17 14:31:02
+    - 2009-02-17 14:31:02
+  - - "56"
+    - 
+    - Castelnuovo di Garfagnana LU, Italy
+    - 
+    - city
+    - Tuscany
+    - Castelnuovo Di Garfagnana
+    - IT
+    - ITXX0198
+    - true
+    - "44.1093"
+    - "10.4112"
+    - 2009-02-17 14:31:02
+    - 2009-02-17 14:31:02
+  - - "57"
+    - 
+    - Saturnia, Manciano GR, Italy
+    - 
+    - city
+    - Tuscany
+    - Manciano
+    - IT
+    - ITXX0342
+    - true
+    - "42.6663"
+    - "11.5049"
+    - 2009-02-17 14:31:02
+    - 2009-02-17 14:31:02
+  - - "58"
+    - 
+    - Palermo, Italy
+    - 
+    - city
+    - Sicily
+    - Palermo
+    - IT
+    - ITXX0055
+    - true
+    - "38.1156"
+    - "13.3613"
+    - 2009-02-17 14:31:03
+    - 2009-02-17 14:31:03
+  - - "59"
+    - 
+    - Piombino LI, Italy
+    - 
+    - city
+    - Tuscany
+    - Piombino
+    - IT
+    - ITXX0211
+    - true
+    - "42.9258"
+    - "10.5254"
+    - 2009-02-17 14:31:03
+    - 2009-02-17 14:31:03
+  - - "60"
+    - 
+    - Montalcino SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Montalcino
+    - IT
+    - ITXX0338
+    - true
+    - "43.0606"
+    - "11.489"
+    - 2009-02-17 14:31:04
+    - 2009-02-17 14:31:04
+  - - "61"
+    - 
+    - Rufina FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Rufina
+    - IT
+    - ITXX0319
+    - true
+    - "43.8253"
+    - "11.4861"
+    - 2009-02-17 14:31:04
+    - 2009-02-17 14:31:04
+  - - "62"
+    - 
+    - Peccioli PI, Italy
+    - 
+    - city
+    - Tuscany
+    - Peccioli
+    - IT
+    - ITXX0346
+    - true
+    - "43.5466"
+    - "10.7192"
+    - 2009-02-17 14:31:05
+    - 2009-02-17 14:31:05
+  - - "63"
+    - 
+    - Rieti RI, Italy
+    - 
+    - city
+    - Latium
+    - Rieti
+    - IT
+    - ITXX0149
+    - true
+    - "42.4031"
+    - "12.8612"
+    - 2009-02-17 14:31:05
+    - 2009-02-17 14:31:05
+  - - "64"
+    - 
+    - Monte San Savino AR, Italy
+    - 
+    - city
+    - Tuscany
+    - Monte San Savino
+    - IT
+    - ITXX0339
+    - true
+    - "43.3297"
+    - "11.7313"
+    - 2009-02-17 14:31:07
+    - 2009-02-17 14:31:07
+  - - "65"
+    - 
+    - Gioia del Colle BA, Italy
+    - 
+    - city
+    - Puglia
+    - Gioia Del Colle
+    - IT
+    - ITXX0239
+    - true
+    - "40.7979"
+    - "16.9246"
+    - 2009-02-17 14:31:09
+    - 2009-02-17 14:31:09
+  - - "66"
+    - 
+    - Gallipoli LE, Italy
+    - 
+    - city
+    - Puglia
+    - Gallipoli
+    - IT
+    - ITXX0238
+    - true
+    - "40.0562"
+    - "17.9788"
+    - 2009-02-17 14:31:09
+    - 2009-02-17 14:31:09
+  - - "67"
+    - 
+    - Siderno Reggio de Calabre, Italy
+    - 
+    - city
+    - Calabre
+    - Siderno
+    - IT
+    - ITXX0231
+    - true
+    - "38.2704"
+    - "16.2971"
+    - 2009-02-17 14:31:09
+    - 2009-02-17 14:31:09
+  - - "68"
+    - 
+    - Barcellona Pozzo Di Gotto ME, Italy
+    - 
+    - city
+    - Sicily
+    - Barcellona Pozzo Di Gotto
+    - IT
+    - ITXX0228
+    - true
+    - "38.1487"
+    - "15.2114"
+    - 2009-02-17 14:31:10
+    - 2009-02-17 14:31:10
+  - - "69"
+    - 
+    - Urbania PU, Italy
+    - 
+    - city
+    - Marken
+    - Urbania
+    - IT
+    - ITXX0164
+    - true
+    - "43.6706"
+    - "12.5211"
+    - 2009-02-17 14:31:10
+    - 2009-02-17 14:31:10
+  - - "70"
+    - 
+    - Muravera CA, Italy
+    - 
+    - city
+    - Sardinia
+    - Muravera
+    - IT
+    - ITXX0051
+    - true
+    - "39.4202"
+    - "9.57438"
+    - 2009-02-17 14:31:11
+    - 2009-02-17 14:31:11
+  - - "71"
+    - 
+    - Bruneck BZ, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Bruneck
+    - IT
+    - ITXX0110
+    - true
+    - "46.7971"
+    - "11.93"
+    - 2009-02-17 14:31:11
+    - 2009-02-17 14:31:11
+  - - "72"
+    - 
+    - Lucca LU, Italy
+    - 
+    - city
+    - Tuscany
+    - Lucca
+    - IT
+    - ITXX0037
+    - true
+    - "43.843"
+    - "10.508"
+    - 2009-02-17 14:31:12
+    - 2009-02-17 14:31:12
+  - - "73"
+    - 
+    - Bormio Sudovest, Italy
+    - 
+    - city
+    - Lombardy
+    - Bormio
+    - IT
+    - ITXX0186
+    - true
+    - "46.4676"
+    - "10.3781"
+    - 2009-02-17 14:31:13
+    - 2009-02-17 14:31:13
+  - - "74"
+    - 
+    - Treviso TV, Italy
+    - 
+    - city
+    - Veneto
+    - Treviso
+    - IT
+    - ITXX0079
+    - true
+    - "45.6663"
+    - "12.2421"
+    - 2009-02-17 14:31:13
+    - 2009-02-17 14:31:13
+  - - "75"
+    - 
+    - Borgo San Lorenzo FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Borgo San Lorenzo
+    - IT
+    - ITXX0315
+    - true
+    - "43.9564"
+    - "11.3845"
+    - 2009-02-17 14:31:14
+    - 2009-02-17 14:31:14
+  - - "76"
+    - 
+    - Montecchio TR, Italy
+    - 
+    - city
+    - Umbrien
+    - Montecchio
+    - IT
+    - ITXX0183
+    - true
+    - "42.664"
+    - "12.2881"
+    - 2009-02-17 14:31:14
+    - 2009-02-17 14:31:14
+  - - "77"
+    - Via Marina Di Leuca
+    - Via Marina di Leuca, 00050 Fiumicino RM, Italy
+    - "00050"
+    - zip+4
+    - Lazio
+    - Fiumicino
+    - IT
+    - ITXX0128
+    - true
+    - "41.8383"
+    - "12.2118"
+    - 2009-02-17 14:31:16
+    - 2009-02-17 14:31:16
+  - - "78"
+    - 
+    - Desenzano Del Garda BS, Italy
+    - 
+    - city
+    - Lombardy
+    - Desenzano Del Garda
+    - IT
+    - ITXX0305
+    - true
+    - "45.4689"
+    - "10.535"
+    - 2009-02-17 14:31:16
+    - 2009-02-17 14:31:16
+  - - "79"
+    - 
+    - Castiglioncello, Rosignano Marittimo LI, Italy
+    - 
+    - city
+    - Tuscany
+    - Rosignano Marittimo
+    - IT
+    - ITXX0321
+    - true
+    - "43.4041"
+    - "10.429"
+    - 2009-02-17 14:31:16
+    - 2009-02-17 14:31:16
+  - - "80"
+    - 
+    - Potenza, Italy
+    - 
+    - city
+    - Basilicate
+    - Potenza
+    - IT
+    - ITXX0139
+    - true
+    - "40.6372"
+    - "15.8022"
+    - 2009-02-17 14:31:17
+    - 2009-02-17 14:31:17
+  - - "81"
+    - 
+    - Catanzaro, Italy
+    - 
+    - city
+    - Calabre
+    - Catanzaro
+    - IT
+    - ITXX0116
+    - true
+    - "38.91"
+    - "16.5877"
+    - 2009-02-17 14:31:17
+    - 2009-02-17 14:31:17
+  - - "82"
+    - 
+    - Lanuvio RM, Italy
+    - 
+    - city
+    - Latium
+    - Lanuvio
+    - IT
+    - ITXX0356
+    - true
+    - "41.6747"
+    - "12.6976"
+    - 2009-02-17 14:31:18
+    - 2009-02-17 14:31:18
+  - - "83"
+    - 
+    - Borgo San Lorenzo FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Borgo San Lorenzo
+    - IT
+    - ITXX0200
+    - true
+    - "43.9564"
+    - "11.3845"
+    - 2009-02-17 14:31:18
+    - 2009-02-17 14:31:18
+  - - "84"
+    - 
+    - Domodossola VB, Italy
+    - 
+    - city
+    - Piedmont
+    - Domodossola
+    - IT
+    - ITXX0117
+    - true
+    - "46.1148"
+    - "8.29153"
+    - 2009-02-17 14:31:21
+    - 2009-02-17 14:31:21
+  - - "85"
+    - 
+    - Formia LT, Italy
+    - 
+    - city
+    - Latium
+    - Formia
+    - IT
+    - ITXX0029
+    - true
+    - "41.2564"
+    - "13.6059"
+    - 2009-02-17 14:31:22
+    - 2009-02-17 14:31:22
+  - - "86"
+    - 
+    - Radda in Chianti SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Radda In Chianti
+    - IT
+    - ITXX0340
+    - true
+    - "43.4865"
+    - "11.3732"
+    - 2009-02-17 14:31:22
+    - 2009-02-17 14:31:22
+  - - "87"
+    - 
+    - Bronzolo BZ, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Bronzolo
+    - IT
+    - ITXX0009
+    - true
+    - "46.4071"
+    - "11.3229"
+    - 2009-02-17 14:31:23
+    - 2009-02-17 14:31:23
+  - - "88"
+    - 
+    - Porto Cervo, Arzachena Olbia-Tempio, Italy
+    - 
+    - city
+    - Sardinia
+    - Arzachena
+    - IT
+    - ITXX0372
+    - true
+    - "41.1406"
+    - "9.53267"
+    - 2009-02-17 14:31:23
+    - 2009-02-17 14:31:23
+  - - "89"
+    - 
+    - Lenno CO, Italy
+    - 
+    - city
+    - Lombardy
+    - Lenno
+    - IT
+    - ITXX0243
+    - true
+    - "45.9739"
+    - "9.19206"
+    - 2009-02-17 14:31:24
+    - 2009-02-17 14:31:24
+  - - "90"
+    - 
+    - Como CO, Italy
+    - 
+    - city
+    - Lombardy
+    - Como
+    - IT
+    - ITXX0024
+    - true
+    - "45.812"
+    - "9.08546"
+    - 2009-02-17 14:31:24
+    - 2009-02-17 14:31:24
+  - - "91"
+    - 
+    - Vinci FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Vinci
+    - IT
+    - ITXX0312
+    - true
+    - "43.7799"
+    - "10.9234"
+    - 2009-02-17 14:31:24
+    - 2009-02-17 14:31:24
+  - - "92"
+    - 
+    - "Tortol\xC3\xAC Ogliastra, Italy"
+    - 
+    - city
+    - Sardinia
+    - "Tortol\xC3\xAC"
+    - IT
+    - ITXX0216
+    - true
+    - "39.9266"
+    - "9.65785"
+    - 2009-02-17 14:31:25
+    - 2009-02-17 14:31:25
+  - - "93"
+    - 
+    - Modena MO, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Modena
+    - IT
+    - ITXX0043
+    - true
+    - "44.6471"
+    - "10.9252"
+    - 2009-02-17 14:31:25
+    - 2009-02-17 14:31:25
+  - - "94"
+    - Largo Gambassi
+    - Largo Gambassi, 00139 Rome, Italy
+    - 00139
+    - zip+4
+    - Lazio
+    - Rome
+    - IT
+    - ITXX0313
+    - true
+    - "41.9485"
+    - "12.514"
+    - 2009-02-17 14:31:27
+    - 2009-02-17 14:31:27
+  - - "95"
+    - 
+    - Cagliari, Italy
+    - 
+    - city
+    - Sardinia
+    - Cagliari
+    - IT
+    - ITXX0010
+    - true
+    - "39.2149"
+    - "9.1095"
+    - 2009-02-17 14:31:27
+    - 2009-02-17 14:31:27
+  - - "96"
+    - 
+    - Capranica VT, Italy
+    - 
+    - city
+    - Latium
+    - Capranica
+    - IT
+    - ITXX0357
+    - true
+    - "42.2599"
+    - "12.1731"
+    - 2009-02-17 14:31:27
+    - 2009-02-17 14:31:27
+  - - "97"
+    - 
+    - Passo della Cisa, 54027 Pontremoli MS, Italy
+    - "54027"
+    - zip
+    - Toscana
+    - Pontremoli
+    - IT
+    - ITXX0134
+    - true
+    - "44.4715"
+    - "9.92821"
+    - 2009-02-17 14:31:28
+    - 2009-02-17 14:31:28
+  - - "98"
+    - 
+    - Ponte di Legno BS, Italy
+    - 
+    - city
+    - Lombardy
+    - Ponte Di Legno
+    - IT
+    - ITXX0241
+    - true
+    - "46.2595"
+    - "10.5099"
+    - 2009-02-17 14:31:28
+    - 2009-02-17 14:31:28
+  - - "99"
+    - 
+    - Milano, Italy
+    - 
+    - city
+    - Lombardy
+    - Milano
+    - IT
+    - ITXX0042
+    - true
+    - "45.4637"
+    - "9.18813"
+    - 2009-02-17 14:31:28
+    - 2009-02-17 14:31:28
+  - - "100"
+    - 
+    - Gualdo Tadino PG, Italy
+    - 
+    - city
+    - Umbrien
+    - Gualdo Tadino
+    - IT
+    - ITXX0122
+    - true
+    - "43.2303"
+    - "12.7861"
+    - 2009-02-17 14:31:29
+    - 2009-02-17 14:31:29
+  - - "101"
+    - 
+    - Asti AT, Italy
+    - 
+    - city
+    - Piedmont
+    - Asti
+    - IT
+    - ITXX0202
+    - true
+    - "44.9009"
+    - "8.20681"
+    - 2009-02-17 14:31:29
+    - 2009-02-17 14:31:29
+  - - "102"
+    - 
+    - Taormina ME, Italy
+    - 
+    - city
+    - Sicily
+    - Taormina
+    - IT
+    - ITXX0368
+    - true
+    - "37.8531"
+    - "15.2879"
+    - 2009-02-17 14:31:29
+    - 2009-02-17 14:31:29
+  - - "103"
+    - 
+    - Predazzo TN, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Predazzo
+    - IT
+    - ITXX0249
+    - true
+    - "46.3099"
+    - "11.6008"
+    - 2009-02-17 14:31:30
+    - 2009-02-17 14:31:30
+  - - "104"
+    - 
+    - Avezzano AQ, Italy
+    - 
+    - city
+    - Abruzzi
+    - Avezzano
+    - IT
+    - ITXX0355
+    - true
+    - "42.0284"
+    - "13.4256"
+    - 2009-02-17 14:31:30
+    - 2009-02-17 14:31:30
+  - - "105"
+    - 
+    - Aosta, Italy
+    - 
+    - city
+    - Aostatal
+    - Aosta
+    - IT
+    - ITXX0103
+    - true
+    - "45.7369"
+    - "7.31452"
+    - 2009-02-17 14:31:30
+    - 2009-02-17 14:31:30
+  - - "106"
+    - 
+    - Capo Caccia, 07041 Alghero Strada Statale, Italy
+    - 
+    - city
+    - Sardegna
+    - Alghero
+    - IT
+    - ITXX0188
+    - true
+    - "40.5633"
+    - "8.1633"
+    - 2009-02-17 14:31:31
+    - 2009-02-17 14:31:31
+  - - "107"
+    - 
+    - Alghero Strada Statale, Italy
+    - 
+    - city
+    - Sardinia
+    - Alghero
+    - IT
+    - ITXX0101
+    - true
+    - "40.558"
+    - "8.3222"
+    - 2009-02-17 14:31:32
+    - 2009-02-17 14:31:32
+  - - "108"
+    - 
+    - Teramo TE, Italy
+    - 
+    - city
+    - Abruzzi
+    - Teramo
+    - IT
+    - ITXX0160
+    - true
+    - "42.6613"
+    - "13.6985"
+    - 2009-02-17 14:31:32
+    - 2009-02-17 14:31:32
+  - - "109"
+    - 
+    - Bucine AR, Italy
+    - 
+    - city
+    - Tuscany
+    - Bucine
+    - IT
+    - ITXX0335
+    - true
+    - "43.4775"
+    - "11.616"
+    - 2009-02-17 14:31:32
+    - 2009-02-17 14:31:32
+  - - "110"
+    - 
+    - Massa MS, Italy
+    - 
+    - city
+    - Tuscany
+    - Massa
+    - IT
+    - ITXX0204
+    - true
+    - "44.0387"
+    - "10.1442"
+    - 2009-02-17 14:31:33
+    - 2009-02-17 14:31:33
+  - - "111"
+    - 
+    - Trieste, Italy
+    - 
+    - state
+    - Friaul-Julisch-Venetien
+    - 
+    - IT
+    - ITXX0080
+    - true
+    - "45.6895"
+    - "13.7833"
+    - 2009-02-17 14:31:33
+    - 2009-02-17 14:31:33
+  - - "112"
+    - 
+    - Celico CS, Italy
+    - 
+    - city
+    - Calabria
+    - Celico
+    - IT
+    - ITXX0225
+    - true
+    - "39.3113"
+    - "16.3408"
+    - 2009-02-17 14:31:33
+    - 2009-02-17 14:31:33
+  - - "113"
+    - 
+    - Gaiole in Chianti SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Gaiole In Chianti
+    - IT
+    - ITXX0337
+    - true
+    - "43.4693"
+    - "11.4333"
+    - 2009-02-17 14:31:34
+    - 2009-02-17 14:31:34
+  - - "114"
+    - 
+    - Crema CR, Italy
+    - 
+    - city
+    - Lombardy
+    - Crema
+    - IT
+    - ITXX0203
+    - true
+    - "45.3618"
+    - "9.68323"
+    - 2009-02-17 14:31:34
+    - 2009-02-17 14:31:34
+  - - "115"
+    - 
+    - Monteriggioni SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Monteriggioni
+    - IT
+    - ITXX0332
+    - true
+    - "43.3897"
+    - "11.2245"
+    - 2009-02-17 14:31:35
+    - 2009-02-17 14:31:35
+  - - "116"
+    - 
+    - Salerno SA, Italy
+    - 
+    - city
+    - Campania
+    - Salerno
+    - IT
+    - ITXX0069
+    - true
+    - "40.678"
+    - "14.7659"
+    - 2009-02-17 14:31:36
+    - 2009-02-17 14:31:36
+  - - "117"
+    - 
+    - Vicenza VI, Italy
+    - 
+    - city
+    - Veneto
+    - Vicenza
+    - IT
+    - ITXX0088
+    - true
+    - "45.5459"
+    - "11.5403"
+    - 2009-02-17 14:31:36
+    - 2009-02-17 14:31:36
+  - - "118"
+    - 
+    - Marina di Pietrasanta, 55045 Pietrasanta LU, Italy
+    - 
+    - city
+    - Toscana
+    - Pietrasanta
+    - IT
+    - ITXX0325
+    - true
+    - "43.9305"
+    - "10.1948"
+    - 2009-02-17 14:31:37
+    - 2009-02-17 14:31:37
+  - - "119"
+    - 
+    - Montaione FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Montaione
+    - IT
+    - ITXX0310
+    - true
+    - "43.5536"
+    - "10.9117"
+    - 2009-02-17 14:31:37
+    - 2009-02-17 14:31:37
+  - - "120"
+    - 
+    - Prato PO, Italy
+    - 
+    - city
+    - Tuscany
+    - Prato
+    - IT
+    - ITXX0062
+    - true
+    - "43.8797"
+    - "11.0963"
+    - 2009-02-17 14:31:38
+    - 2009-02-17 14:31:38
+  - - "121"
+    - 
+    - Pachino SR, Italy
+    - 
+    - city
+    - Sicily
+    - Pachino
+    - IT
+    - ITXX0233
+    - true
+    - "36.7158"
+    - "15.0899"
+    - 2009-02-17 14:31:38
+    - 2009-02-17 14:31:38
+  - - "122"
+    - 
+    - Massarosa LU, Italy
+    - 
+    - city
+    - Tuscany
+    - Massarosa
+    - IT
+    - ITXX0323
+    - true
+    - "43.8688"
+    - "10.3408"
+    - 2009-02-17 14:31:38
+    - 2009-02-17 14:31:38
+  - - "123"
+    - 
+    - Ca' San Marco, 24010 Averara BG, Italy
+    - 
+    - city
+    - Lombardy
+    - Averara
+    - IT
+    - ITXX0151
+    - true
+    - "46.0426"
+    - "9.62676"
+    - 2009-02-17 14:31:39
+    - 2009-02-17 14:31:39
+  - - "124"
+    - 
+    - Nuoro NU, Italy
+    - 
+    - city
+    - Sardinia
+    - Nuoro
+    - IT
+    - ITXX0131
+    - true
+    - "40.321"
+    - "9.33044"
+    - 2009-02-17 14:31:39
+    - 2009-02-17 14:31:39
+  - - "125"
+    - 
+    - Civitanova Marche MC, Italy
+    - 
+    - city
+    - Marken
+    - Civitanova Marche
+    - IT
+    - ITXX0142
+    - true
+    - "43.3046"
+    - "13.7195"
+    - 2009-02-17 14:31:39
+    - 2009-02-17 14:31:39
+  - - "126"
+    - 
+    - Sienna SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Sienna
+    - IT
+    - ITXX0072
+    - true
+    - "43.3187"
+    - "11.3305"
+    - 2009-02-17 14:31:40
+    - 2009-02-17 14:31:40
+  - - "127"
+    - 
+    - Rovigo RO, Italy
+    - 
+    - city
+    - Veneto
+    - Rovigo
+    - IT
+    - ITXX0068
+    - true
+    - "45.0707"
+    - "11.7898"
+    - 2009-02-17 14:31:40
+    - 2009-02-17 14:31:40
+  - - "128"
+    - 
+    - Prato allo Stelvio BZ, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Prato Allo Stelvio
+    - IT
+    - ITXX0137
+    - true
+    - "46.6223"
+    - "10.582"
+    - 2009-02-17 14:31:40
+    - 2009-02-17 14:31:40
+  - - "129"
+    - 
+    - Orzinuovi BS, Italy
+    - 
+    - city
+    - Lombardy
+    - Orzinuovi
+    - IT
+    - ITXX0259
+    - true
+    - "45.4019"
+    - "9.9243"
+    - 2009-02-17 14:31:41
+    - 2009-02-17 14:31:41
+  - - "130"
+    - 
+    - Massa Martana PG, Italy
+    - 
+    - city
+    - Umbrien
+    - Massa Martana
+    - IT
+    - ITXX0354
+    - true
+    - "42.7756"
+    - "12.5241"
+    - 2009-02-17 14:31:41
+    - 2009-02-17 14:31:41
+  - - "131"
+    - 
+    - Frontone PU, Italy
+    - 
+    - city
+    - Marken
+    - Frontone
+    - IT
+    - ITXX0120
+    - true
+    - "43.5128"
+    - "12.7317"
+    - 2009-02-17 14:31:42
+    - 2009-02-17 14:31:42
+  - - "132"
+    - 
+    - San Teodoro Olbia-Tempio, Italy
+    - 
+    - city
+    - Sardinia
+    - San Teodoro
+    - IT
+    - ITXX0362
+    - true
+    - "40.7707"
+    - "9.67336"
+    - 2009-02-17 14:31:42
+    - 2009-02-17 14:31:42
+  - - "133"
+    - 
+    - Reggio Calabria Reggio de Calabre, Italy
+    - 
+    - city
+    - Calabre
+    - Reggio Calabria
+    - IT
+    - ITXX0147
+    - true
+    - "38.1093"
+    - "15.6439"
+    - 2009-02-17 14:31:42
+    - 2009-02-17 14:31:42
+  - - "134"
+    - 
+    - Certaldo FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Certaldo
+    - IT
+    - ITXX0329
+    - true
+    - "43.5474"
+    - "11.0386"
+    - 2009-02-17 14:31:43
+    - 2009-02-17 14:31:43
+  - - "135"
+    - 
+    - Ragusa RG, Italy
+    - 
+    - city
+    - Sicily
+    - Ragusa
+    - IT
+    - ITXX0260
+    - true
+    - "36.9261"
+    - "14.7284"
+    - 2009-02-17 14:31:43
+    - 2009-02-17 14:31:43
+  - - "136"
+    - 
+    - Brindisi BR, Italy
+    - 
+    - city
+    - Puglia
+    - Brindisi
+    - IT
+    - ITXX0096
+    - true
+    - "40.6362"
+    - "17.939"
+    - 2009-02-17 14:31:44
+    - 2009-02-17 14:31:44
+  - - "137"
+    - 
+    - Lovere BG, Italy
+    - 
+    - city
+    - Lombardy
+    - Lovere
+    - IT
+    - ITXX0244
+    - true
+    - "45.8103"
+    - "10.069"
+    - 2009-02-17 14:31:44
+    - 2009-02-17 14:31:44
+  - - "138"
+    - 
+    - Verona VR, Italy
+    - 
+    - city
+    - Veneto
+    - Verona
+    - IT
+    - ITXX0087
+    - true
+    - "45.442"
+    - "10.9955"
+    - 2009-02-17 14:31:44
+    - 2009-02-17 14:31:44
+  - - "139"
+    - 
+    - Fornovo Di Taro PR, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Fornovo Di Taro
+    - IT
+    - ITXX0261
+    - true
+    - "44.693"
+    - "10.102"
+    - 2009-02-17 14:31:45
+    - 2009-02-17 14:31:45
+  - - "140"
+    - 
+    - Belluno BL, Italy
+    - 
+    - city
+    - Veneto
+    - Belluno
+    - IT
+    - ITXX0250
+    - true
+    - "46.14"
+    - "12.2176"
+    - 2009-02-17 14:31:45
+    - 2009-02-17 14:31:45
+  - - "141"
+    - 
+    - Poggibonsi SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Poggibonsi
+    - IT
+    - ITXX0060
+    - true
+    - "43.4734"
+    - "11.1467"
+    - 2009-02-17 14:31:45
+    - 2009-02-17 14:31:45
+  - - "142"
+    - 
+    - San Biagio di Callalta TV, Italy
+    - 
+    - city
+    - Veneto
+    - San Biagio Di Callalta
+    - IT
+    - ITXX0248
+    - true
+    - "45.6855"
+    - "12.3772"
+    - 2009-02-17 14:31:46
+    - 2009-02-17 14:31:46
+  - - "143"
+    - 
+    - Vibo Valentia VV, Italy
+    - 
+    - city
+    - Calabre
+    - Vibo Valentia
+    - IT
+    - ITXX0166
+    - true
+    - "38.6756"
+    - "16.0977"
+    - 2009-02-17 14:31:46
+    - 2009-02-17 14:31:46
+  - - "144"
+    - 
+    - Gorizia GO, Italy
+    - 
+    - city
+    - Friaul-Julisch-Venetien
+    - Gorizia
+    - IT
+    - ITXX0121
+    - true
+    - "45.9413"
+    - "13.6215"
+    - 2009-02-17 14:31:47
+    - 2009-02-17 14:31:47
+  - - "145"
+    - 
+    - Castellina in Chianti SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Castellina In Chianti
+    - IT
+    - ITXX0328
+    - true
+    - "43.4714"
+    - "11.2854"
+    - 2009-02-17 14:31:47
+    - 2009-02-17 14:31:47
+  - - "146"
+    - 
+    - Napoli, Italy
+    - 
+    - city
+    - Campania
+    - Napoli
+    - IT
+    - ITXX0052
+    - true
+    - "40.84"
+    - "14.2529"
+    - 2009-02-17 14:31:48
+    - 2009-02-17 14:31:48
+  - - "147"
+    - 
+    - Riva Del Garda TN, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Riva Del Garda
+    - IT
+    - ITXX0208
+    - true
+    - "45.8881"
+    - "10.8445"
+    - 2009-02-17 14:31:48
+    - 2009-02-17 14:31:48
+  - - "148"
+    - Via Alessandro Coppi, 12
+    - Spezzano, 41042 Fiorano Modenese MO, Italy
+    - "41042"
+    - city
+    - Emilia-Romagna
+    - Fiorano Modenese
+    - IT
+    - ITXX0157
+    - true
+    - "44.5253"
+    - "10.8436"
+    - 2009-02-17 14:31:49
+    - 2009-02-17 14:31:49
+  - - "149"
+    - 
+    - Viterbo VT, Italy
+    - 
+    - city
+    - Latium
+    - Viterbo
+    - IT
+    - ITXX0089
+    - true
+    - "42.4174"
+    - "12.1049"
+    - 2009-02-17 14:31:49
+    - 2009-02-17 14:31:49
+  - - "150"
+    - 
+    - Licata AG, Italy
+    - 
+    - city
+    - Sicily
+    - Licata
+    - IT
+    - ITXX0223
+    - true
+    - "37.1022"
+    - "13.9376"
+    - 2009-02-17 14:31:50
+    - 2009-02-17 14:31:50
+  - - "151"
+    - 
+    - Spoleto PG, Italy
+    - 
+    - city
+    - Umbrien
+    - Spoleto
+    - IT
+    - ITXX0153
+    - true
+    - "42.7453"
+    - "12.7384"
+    - 2009-02-17 14:31:50
+    - 2009-02-17 14:31:50
+  - - "152"
+    - 
+    - Cerreto Guidi FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Cerreto Guidi
+    - IT
+    - ITXX0309
+    - true
+    - "43.7598"
+    - "10.8802"
+    - 2009-02-17 14:31:51
+    - 2009-02-17 14:31:51
+  - - "153"
+    - 
+    - Porto Empedocle AG, Italy
+    - 
+    - city
+    - Sicily
+    - Porto Empedocle
+    - IT
+    - ITXX0222
+    - true
+    - "37.2865"
+    - "13.5269"
+    - 2009-02-17 14:31:51
+    - 2009-02-17 14:31:51
+  - - "154"
+    - 
+    - Campomarino CB, Italy
+    - 
+    - city
+    - Molise
+    - Campomarino
+    - IT
+    - ITXX0359
+    - true
+    - "41.9571"
+    - "15.0347"
+    - 2009-02-17 14:31:52
+    - 2009-02-17 14:31:52
+  - - "155"
+    - 
+    - Sciacca AG, Italy
+    - 
+    - city
+    - Sicily
+    - Sciacca
+    - IT
+    - ITXX0369
+    - true
+    - "37.5057"
+    - "13.0805"
+    - 2009-02-17 14:31:52
+    - 2009-02-17 14:31:52
+  - - "156"
+    - 
+    - Rome, Italy
+    - 
+    - city
+    - Latium
+    - Rome
+    - IT
+    - ITXX0067
+    - true
+    - "41.8955"
+    - "12.4823"
+    - 2009-02-17 14:31:52
+    - 2009-02-17 14:31:52
+  - - "157"
+    - 
+    - Mestre, Venice, Italy
+    - 
+    - city
+    - Veneto
+    - Venice
+    - IT
+    - ITXX0041
+    - true
+    - "45.4958"
+    - "12.2441"
+    - 2009-02-17 14:31:53
+    - 2009-02-17 14:31:53
+  - - "158"
+    - 
+    - Cinigiano GR, Italy
+    - 
+    - city
+    - Tuscany
+    - Cinigiano
+    - IT
+    - ITXX0199
+    - true
+    - "42.8907"
+    - "11.393"
+    - 2009-02-17 14:31:54
+    - 2009-02-17 14:31:54
+  - - "159"
+    - 
+    - Capo Palinuro, Centola SA, Italy
+    - 
+    - city
+    - Campania
+    - Centola
+    - IT
+    - ITXX0095
+    - true
+    - "40.0291"
+    - "15.268"
+    - 2009-02-17 14:31:54
+    - 2009-02-17 14:31:54
+  - - "160"
+    - 
+    - Grosseto GR, Italy
+    - 
+    - city
+    - Tuscany
+    - Grosseto
+    - IT
+    - ITXX0093
+    - true
+    - "42.7629"
+    - "11.1128"
+    - 2009-02-17 14:31:54
+    - 2009-02-17 14:31:54
+  - - "161"
+    - 
+    - Bari, Italy
+    - 
+    - city
+    - Puglia
+    - Bari
+    - IT
+    - ITXX0003
+    - true
+    - "41.1261"
+    - "16.8693"
+    - 2009-02-17 14:31:55
+    - 2009-02-17 14:31:55
+  - - "162"
+    - 
+    - Termoli CB, Italy
+    - 
+    - city
+    - Molise
+    - Termoli
+    - IT
+    - ITXX0162
+    - true
+    - "41.9958"
+    - "14.9905"
+    - 2009-02-17 14:31:55
+    - 2009-02-17 14:31:55
+  - - "163"
+    - 
+    - Punta Ala, Castiglione della Pescaia GR, Italy
+    - 
+    - city
+    - Tuscany
+    - Castiglione Della Pescaia
+    - IT
+    - ITXX0373
+    - true
+    - "42.8031"
+    - "10.7538"
+    - 2009-02-17 14:31:56
+    - 2009-02-17 14:31:56
+  - - "164"
+    - 
+    - Todi PG, Italy
+    - 
+    - city
+    - Umbrien
+    - Todi
+    - IT
+    - ITXX0348
+    - true
+    - "42.7802"
+    - "12.4085"
+    - 2009-02-17 14:31:56
+    - 2009-02-17 14:31:56
+  - - "165"
+    - 
+    - Assisi PG, Italy
+    - 
+    - city
+    - Umbrien
+    - Assisi
+    - IT
+    - ITXX0349
+    - true
+    - "43.0702"
+    - "12.6175"
+    - 2009-02-17 14:31:57
+    - 2009-02-17 14:31:57
+  - - "166"
+    - 
+    - Castelnuovo Berardenga SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Castelnuovo Berardenga
+    - IT
+    - ITXX0336
+    - true
+    - "43.3474"
+    - "11.5044"
+    - 2009-02-17 14:31:57
+    - 2009-02-17 14:31:57
+  - - "167"
+    - 
+    - Montesilvano PE, Italy
+    - 
+    - city
+    - Abruzzi
+    - Montesilvano
+    - IT
+    - ITXX0048
+    - true
+    - "42.5051"
+    - "14.1389"
+    - 2009-02-17 14:31:58
+    - 2009-02-17 14:31:58
+  - - "168"
+    - 
+    - Brescia BS, Italy
+    - 
+    - city
+    - Lombardy
+    - Brescia
+    - IT
+    - ITXX0008
+    - true
+    - "45.5398"
+    - "10.2229"
+    - 2009-02-17 14:31:58
+    - 2009-02-17 14:31:58
+  - - "169"
+    - 
+    - Agnone IS, Italy
+    - 
+    - city
+    - Molise
+    - Agnone
+    - IT
+    - ITXX0100
+    - true
+    - "41.8105"
+    - "14.3786"
+    - 2009-02-17 14:31:59
+    - 2009-02-17 14:31:59
+  - - "170"
+    - 
+    - Collegno TO, Italy
+    - 
+    - city
+    - Piedmont
+    - Collegno
+    - IT
+    - ITXX0023
+    - true
+    - "45.0777"
+    - "7.57038"
+    - 2009-02-17 14:32:00
+    - 2009-02-17 14:32:00
+  - - "171"
+    - 
+    - Marsala TP, Italy
+    - 
+    - city
+    - Sicily
+    - Marsala
+    - IT
+    - ITXX0038
+    - true
+    - "37.7984"
+    - "12.4376"
+    - 2009-02-17 14:32:03
+    - 2009-02-17 14:32:03
+  - - "172"
+    - 
+    - Montepulciano SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Montepulciano
+    - IT
+    - ITXX0201
+    - true
+    - "43.0929"
+    - "11.7824"
+    - 2009-02-17 14:32:03
+    - 2009-02-17 14:32:03
+  - - "173"
+    - 
+    - Segromigno in Monte, Capannori LU, Italy
+    - 
+    - city
+    - Tuscany
+    - Capannori
+    - IT
+    - ITXX0324
+    - true
+    - "43.8941"
+    - "10.5933"
+    - 2009-02-17 14:32:03
+    - 2009-02-17 14:32:03
+  - - "174"
+    - 
+    - Pesaro PU, Italy
+    - 
+    - city
+    - Marken
+    - Pesaro
+    - IT
+    - ITXX0141
+    - true
+    - "43.9121"
+    - "12.9157"
+    - 2009-02-17 14:32:04
+    - 2009-02-17 14:32:04
+  - - "175"
+    - Via Roma, 1
+    - Stio SA, Italy
+    - "52017"
+    - city
+    - Campania
+    - Stio
+    - IT
+    - ITXX0240
+    - true
+    - "40.3109"
+    - "15.2534"
+    - 2009-02-17 14:32:05
+    - 2009-02-17 14:32:05
+  - - "176"
+    - 
+    - Plaisance PC, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Plaisance
+    - IT
+    - ITXX0058
+    - true
+    - "45.0524"
+    - "9.69874"
+    - 2009-02-17 14:32:05
+    - 2009-02-17 14:32:05
+  - - "177"
+    - 
+    - Turin, Italy
+    - 
+    - city
+    - Piedmont
+    - Turin
+    - IT
+    - ITXX0081
+    - true
+    - "45.0706"
+    - "7.68671"
+    - 2009-02-17 14:32:06
+    - 2009-02-17 14:32:06
+  - - "178"
+    - 
+    - Riccia CB, Italy
+    - 
+    - city
+    - Molise
+    - Riccia
+    - IT
+    - ITXX0146
+    - true
+    - "41.483"
+    - "14.8342"
+    - 2009-02-17 14:32:06
+    - 2009-02-17 14:32:06
+  - - "179"
+    - 
+    - Ostiglia MN, Italy
+    - 
+    - city
+    - Lombardy
+    - Ostiglia
+    - IT
+    - ITXX0205
+    - true
+    - "45.0702"
+    - "11.1379"
+    - 2009-02-17 14:32:06
+    - 2009-02-17 14:32:06
+  - - "180"
+    - 
+    - Pomarance PI, Italy
+    - 
+    - city
+    - Tuscany
+    - Pomarance
+    - IT
+    - ITXX0347
+    - true
+    - "43.3"
+    - "10.8739"
+    - 2009-02-17 14:32:07
+    - 2009-02-17 14:32:07
+  - - "181"
+    - 
+    - Capo Carbonara, 09049 Villasimius CA, Italy
+    - 
+    - 
+    - 
+    - 
+    - IT
+    - ITXX0193
+    - true
+    - "39.105"
+    - "9.51472"
+    - 2009-02-17 14:32:07
+    - 2009-02-17 14:32:07
+  - - "182"
+    - 
+    - Casole d'Elsa SI, Italy
+    - 
+    - city
+    - Tuscany
+    - Casole D'Elsa
+    - IT
+    - ITXX0327
+    - true
+    - "43.3408"
+    - "11.0438"
+    - 2009-02-17 14:32:08
+    - 2009-02-17 14:32:08
+  - - "183"
+    - 
+    - Oulx TO, Italy
+    - 
+    - city
+    - Piedmont
+    - Oulx
+    - IT
+    - ITXX0133
+    - true
+    - "45.0333"
+    - "6.83363"
+    - 2009-02-17 14:32:08
+    - 2009-02-17 14:32:08
+  - - "184"
+    - 
+    - Scauri, Minturno LT, Italy
+    - 
+    - city
+    - Latium
+    - Minturno
+    - IT
+    - ITXX0218
+    - true
+    - "41.2578"
+    - "13.7036"
+    - 2009-02-17 14:32:08
+    - 2009-02-17 14:32:08
+  - - "185"
+    - 
+    - Porassey, 11013 La Thuile Aosta, Italy
+    - 
+    - city
+    - Aosta
+    - La Thuile
+    - IT
+    - ITXX0144
+    - true
+    - "45.7165"
+    - "6.90454"
+    - 2009-02-17 14:32:09
+    - 2009-02-17 14:32:09
+  - - "186"
+    - 
+    - Taranto, Italy
+    - 
+    - state
+    - Puglia
+    - 
+    - IT
+    - ITXX0158
+    - true
+    - "40.5741"
+    - "17.243"
+    - 2009-02-17 14:32:09
+    - 2009-02-17 14:32:09
+  - - "187"
+    - 
+    - Alcamo TP, Italy
+    - 
+    - city
+    - Sicily
+    - Alcamo
+    - IT
+    - ITXX0001
+    - true
+    - "37.9808"
+    - "12.9604"
+    - 2009-02-17 14:32:10
+    - 2009-02-17 14:32:10
+  - - "188"
+    - 
+    - Acireale CT, Italy
+    - 
+    - city
+    - Sicily
+    - Acireale
+    - IT
+    - ITXX0365
+    - true
+    - "37.6128"
+    - "15.1659"
+    - 2009-02-17 14:32:11
+    - 2009-02-17 14:32:11
+  - - "189"
+    - 
+    - Volterra PI, Italy
+    - 
+    - city
+    - Tuscany
+    - Volterra
+    - IT
+    - ITXX0262
+    - true
+    - "43.4014"
+    - "10.8611"
+    - 2009-02-17 14:32:11
+    - 2009-02-17 14:32:11
+  - - "190"
+    - 
+    - Ventimiglia IM, Italy
+    - 
+    - city
+    - Ligurie
+    - Ventimiglia
+    - IT
+    - ITXX0086
+    - true
+    - "43.7904"
+    - "7.60714"
+    - 2009-02-17 14:32:12
+    - 2009-02-17 14:32:12
+  - - "191"
+    - 
+    - Villasimius CA, Italy
+    - 
+    - city
+    - Sardinia
+    - Villasimius
+    - IT
+    - ITXX0363
+    - true
+    - "39.1429"
+    - "9.51975"
+    - 2009-02-17 14:32:12
+    - 2009-02-17 14:32:12
+  - - "192"
+    - 
+    - Orvieto TR, Italy
+    - 
+    - city
+    - Umbrien
+    - Orvieto
+    - IT
+    - ITXX0132
+    - true
+    - "42.7165"
+    - "12.1116"
+    - 2009-02-17 14:32:12
+    - 2009-02-17 14:32:12
+  - - "193"
+    - 
+    - Matera MT, Italy
+    - 
+    - city
+    - Basilicate
+    - Matera
+    - IT
+    - ITXX0195
+    - true
+    - "40.6687"
+    - "16.6061"
+    - 2009-02-17 14:32:13
+    - 2009-02-17 14:32:13
+  - - "194"
+    - 
+    - Vittorio Veneto TV, Italy
+    - 
+    - city
+    - Veneto
+    - Vittorio Veneto
+    - IT
+    - ITXX0169
+    - true
+    - "45.9798"
+    - "12.3033"
+    - 2009-02-17 14:32:13
+    - 2009-02-17 14:32:13
+  - - "195"
+    - 
+    - San Gimignano SI, Italy
+    - 
+    - city
+    - Tuscany
+    - San Gimignano
+    - IT
+    - ITXX0333
+    - true
+    - "43.4703"
+    - "11.0438"
+    - 2009-02-17 14:32:14
+    - 2009-02-17 14:32:14
+  - - "196"
+    - 
+    - Imperia, Italy
+    - 
+    - state
+    - Ligurie
+    - 
+    - IT
+    - ITXX0307
+    - true
+    - "43.9419"
+    - "7.82864"
+    - 2009-02-17 14:32:14
+    - 2009-02-17 14:32:14
+  - - "197"
+    - 
+    - Greve FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Greve
+    - IT
+    - ITXX0331
+    - true
+    - "43.5851"
+    - "11.3154"
+    - 2009-02-17 14:32:14
+    - 2009-02-17 14:32:14
+  - - "198"
+    - 
+    - Palidoro, Fiumicino RM, Italy
+    - 
+    - city
+    - Latium
+    - Fiumicino
+    - IT
+    - ITXX0056
+    - true
+    - "41.9273"
+    - "12.1799"
+    - 2009-02-17 14:32:15
+    - 2009-02-17 14:32:15
+  - - "199"
+    - 
+    - Vicchio FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Vicchio
+    - IT
+    - ITXX0318
+    - true
+    - "43.9326"
+    - "11.4672"
+    - 2009-02-17 14:32:15
+    - 2009-02-17 14:32:15
+  - - "200"
+    - 
+    - Bolzano BZ, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Bolzano
+    - IT
+    - ITXX0007
+    - true
+    - "46.4952"
+    - "11.3541"
+    - 2009-02-17 14:32:15
+    - 2009-02-17 14:32:15
+  - - "201"
+    - 
+    - Torre del Greco NA, Italy
+    - 
+    - city
+    - Campania
+    - Torre Del Greco
+    - IT
+    - ITXX0076
+    - true
+    - "40.7872"
+    - "14.368"
+    - 2009-02-17 14:32:16
+    - 2009-02-17 14:32:16
+  - - "202"
+    - Via Roma, 32
+    - 11020 Donnaz Aosta, Italy
+    - "11020"
+    - city
+    - Aosta
+    - Donnaz
+    - IT
+    - ITXX0118
+    - true
+    - "45.6123"
+    - "7.75966"
+    - 2009-02-17 14:32:16
+    - 2009-02-17 14:32:16
+  - - "203"
+    - 
+    - "Nard\xC3\xB2 LE, Italy"
+    - 
+    - city
+    - Puglia
+    - "Nard\xC3\xB2"
+    - IT
+    - ITXX0257
+    - true
+    - "40.1759"
+    - "18.0304"
+    - 2009-02-17 14:32:17
+    - 2009-02-17 14:32:17
+  - - "204"
+    - 
+    - Manduria TA, Italy
+    - 
+    - city
+    - Puglia
+    - Manduria
+    - IT
+    - ITXX0236
+    - true
+    - "40.4028"
+    - "17.6344"
+    - 2009-02-17 14:32:17
+    - 2009-02-17 14:32:17
+  - - "205"
+    - 
+    - Molfetta BA, Italy
+    - 
+    - city
+    - Puglia
+    - Molfetta
+    - IT
+    - ITXX0045
+    - true
+    - "41.2013"
+    - "16.5985"
+    - 2009-02-17 14:32:18
+    - 2009-02-17 14:32:18
+  - - "206"
+    - 
+    - Bergamo BG, Italy
+    - 
+    - city
+    - Lombardy
+    - Bergamo
+    - IT
+    - ITXX0005
+    - true
+    - "45.6947"
+    - "9.66871"
+    - 2009-02-17 14:32:18
+    - 2009-02-17 14:32:18
+  - - "207"
+    - 
+    - Terranuova Bracciolini AR, Italy
+    - 
+    - city
+    - Tuscany
+    - Terranuova Bracciolini
+    - IT
+    - ITXX0341
+    - true
+    - "43.5534"
+    - "11.5898"
+    - 2009-02-17 14:32:19
+    - 2009-02-17 14:32:19
+  - - "208"
+    - 
+    - Montecatini Terme PT, Italy
+    - 
+    - city
+    - Tuscany
+    - Montecatini Terme
+    - IT
+    - ITXX0196
+    - true
+    - "43.8845"
+    - "10.7747"
+    - 2009-02-17 14:32:19
+    - 2009-02-17 14:32:19
+  - - "209"
+    - 
+    - Rapallo GE, Italy
+    - 
+    - city
+    - Ligurie
+    - Rapallo
+    - IT
+    - ITXX0064
+    - true
+    - "44.3522"
+    - "9.2308"
+    - 2009-02-17 14:32:20
+    - 2009-02-17 14:32:20
+  - - "210"
+    - 
+    - Catania CT, Italy
+    - 
+    - city
+    - Sicily
+    - Catania
+    - IT
+    - ITXX0017
+    - true
+    - "37.5028"
+    - "15.0883"
+    - 2009-02-17 14:32:20
+    - 2009-02-17 14:32:20
+  - - "211"
+    - 
+    - Cisternino BR, Italy
+    - 
+    - city
+    - Puglia
+    - Cisternino
+    - IT
+    - ITXX0360
+    - true
+    - "40.7431"
+    - "17.4252"
+    - 2009-02-17 14:32:21
+    - 2009-02-17 14:32:21
+  - - "212"
+    - 
+    - Carpi MO, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Carpi
+    - IT
+    - ITXX0013
+    - true
+    - "44.7835"
+    - "10.8788"
+    - 2009-02-17 14:32:21
+    - 2009-02-17 14:32:21
+  - - "213"
+    - 
+    - Chioggia VE, Italy
+    - 
+    - city
+    - Veneto
+    - Chioggia
+    - IT
+    - ITXX0019
+    - true
+    - "45.2171"
+    - "12.2788"
+    - 2009-02-17 14:32:22
+    - 2009-02-17 14:32:22
+  - - "214"
+    - 
+    - Thiene VI, Italy
+    - 
+    - city
+    - Veneto
+    - Thiene
+    - IT
+    - ITXX0303
+    - true
+    - "45.7099"
+    - "11.4806"
+    - 2009-02-17 14:32:22
+    - 2009-02-17 14:32:22
+  - - "215"
+    - 
+    - Cassino FR, Italy
+    - 
+    - city
+    - Latium
+    - Cassino
+    - IT
+    - ITXX0015
+    - true
+    - "41.4929"
+    - "13.8306"
+    - 2009-02-17 14:32:22
+    - 2009-02-17 14:32:22
+  - - "216"
+    - 
+    - Genoa, Italy
+    - 
+    - city
+    - Ligurie
+    - Genoa
+    - IT
+    - ITXX0031
+    - true
+    - "44.4071"
+    - "8.93399"
+    - 2009-02-17 14:32:23
+    - 2009-02-17 14:32:23
+  - - "217"
+    - 
+    - Torgiano PG, Italy
+    - 
+    - city
+    - Umbrien
+    - Torgiano
+    - IT
+    - ITXX0351
+    - true
+    - "43.0262"
+    - "12.4365"
+    - 2009-02-17 14:32:23
+    - 2009-02-17 14:32:23
+  - - "218"
+    - 
+    - Capo Mele, 17053 Laigueglia SV, Italy
+    - 
+    - city
+    - Liguria
+    - Laigueglia
+    - IT
+    - ITXX0092
+    - true
+    - "43.9624"
+    - "8.16626"
+    - 2009-02-17 14:32:24
+    - 2009-02-17 14:32:24
+  - - "219"
+    - 
+    - Padua PD, Italy
+    - 
+    - city
+    - Veneto
+    - Padua
+    - IT
+    - ITXX0054
+    - true
+    - "45.4096"
+    - "11.8766"
+    - 2009-02-17 14:32:24
+    - 2009-02-17 14:32:24
+  - - "220"
+    - 
+    - Follonica GR, Italy
+    - 
+    - city
+    - Tuscany
+    - Follonica
+    - IT
+    - ITXX0210
+    - true
+    - "42.9189"
+    - "10.7614"
+    - 2009-02-17 14:32:25
+    - 2009-02-17 14:32:25
+  - - "221"
+    - 
+    - Castiglione del Lago PG, Italy
+    - 
+    - city
+    - Umbrien
+    - Castiglione Del Lago
+    - IT
+    - ITXX0350
+    - true
+    - "43.1281"
+    - "12.0463"
+    - 2009-02-17 14:32:25
+    - 2009-02-17 14:32:25
+  - - "222"
+    - 
+    - Massa Lubrense NA, Italy
+    - 
+    - city
+    - Campania
+    - Massa Lubrense
+    - IT
+    - ITXX0370
+    - true
+    - "40.6108"
+    - "14.345"
+    - 2009-02-17 14:32:25
+    - 2009-02-17 14:32:25
+  - - "223"
+    - 
+    - Cisterna di Latina LT, Italy
+    - 
+    - city
+    - Latium
+    - Cisterna Di Latina
+    - IT
+    - ITXX0212
+    - true
+    - "41.5944"
+    - "12.8263"
+    - 2009-02-17 14:32:26
+    - 2009-02-17 14:32:26
+  - - "224"
+    - 
+    - Pescara PE, Italy
+    - 
+    - city
+    - Abruzzi
+    - Pescara
+    - IT
+    - ITXX0057
+    - true
+    - "42.4648"
+    - "14.2141"
+    - 2009-02-17 14:32:26
+    - 2009-02-17 14:32:26
+  - - "225"
+    - 
+    - Merano BZ, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Merano
+    - IT
+    - ITXX0039
+    - true
+    - "46.6691"
+    - "11.164"
+    - 2009-02-17 14:32:26
+    - 2009-02-17 14:32:26
+  - - "226"
+    - 
+    - Sardinia, Italy
+    - 
+    - state
+    - Sardinia
+    - 
+    - IT
+    - ITXX0182
+    - true
+    - "40.1209"
+    - "9.01289"
+    - 2009-02-17 14:32:27
+    - 2009-02-17 14:32:27
+  - - "227"
+    - 
+    - Varese Ligure SP, Italy
+    - 
+    - city
+    - Ligurie
+    - Varese Ligure
+    - IT
+    - ITXX0167
+    - true
+    - "44.3774"
+    - "9.59533"
+    - 2009-02-17 14:32:27
+    - 2009-02-17 14:32:27
+  - - "228"
+    - 
+    - Villafranca Di Verona VR, Italy
+    - 
+    - city
+    - Veneto
+    - Villafranca Di Verona
+    - IT
+    - ITXX0091
+    - true
+    - "45.3507"
+    - "10.8433"
+    - 2009-02-17 14:32:27
+    - 2009-02-17 14:32:27
+  - - "229"
+    - 
+    - Carbonia Carbonia-Iglesias, Italy
+    - 
+    - city
+    - Sardinia
+    - Carbonia
+    - IT
+    - ITXX0011
+    - true
+    - "39.1664"
+    - "8.52893"
+    - 2009-02-17 14:32:28
+    - 2009-02-17 14:32:28
+  - - "230"
+    - 
+    - Aversa CE, Italy
+    - 
+    - city
+    - Campania
+    - Aversa
+    - IT
+    - ITXX0002
+    - true
+    - "40.9733"
+    - "14.2077"
+    - 2009-02-17 14:32:28
+    - 2009-02-17 14:32:28
+  - - "231"
+    - 
+    - Latina LT, Italy
+    - 
+    - city
+    - Latium
+    - Latina
+    - IT
+    - ITXX0214
+    - true
+    - "41.4676"
+    - "12.9037"
+    - 2009-02-17 14:32:29
+    - 2009-02-17 14:32:29
+  - - "232"
+    - 
+    - Ronchi dei Legionari GO, Italy
+    - 
+    - city
+    - Friuli-Venezia Giulia
+    - Ronchi Dei Legionari
+    - IT
+    - ITXX0189
+    - true
+    - "45.8237"
+    - "13.501"
+    - 2009-02-17 14:32:29
+    - 2009-02-17 14:32:29
+  - - "233"
+    - 
+    - Vallata AV, Italy
+    - 
+    - city
+    - Campania
+    - Vallata
+    - IT
+    - ITXX0215
+    - true
+    - "41.0334"
+    - "15.2531"
+    - 2009-02-17 14:32:30
+    - 2009-02-17 14:32:30
+  - - "234"
+    - 
+    - Pelago FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Pelago
+    - IT
+    - ITXX0320
+    - true
+    - "43.7722"
+    - "11.504"
+    - 2009-02-17 14:32:31
+    - 2009-02-17 14:32:31
+  - - "235"
+    - 
+    - Policoro MT, Italy
+    - 
+    - city
+    - Basilicate
+    - Policoro
+    - IT
+    - ITXX0143
+    - true
+    - "40.213"
+    - "16.6783"
+    - 2009-02-17 14:32:31
+    - 2009-02-17 14:32:31
+  - - "236"
+    - 
+    - Venice, Italy
+    - 
+    - city
+    - Veneto
+    - Venice
+    - IT
+    - ITXX0085
+    - true
+    - "45.4343"
+    - "12.3388"
+    - 2009-02-17 14:32:31
+    - 2009-02-17 14:32:31
+  - - "237"
+    - 
+    - Vittoria RG, Italy
+    - 
+    - city
+    - Sicily
+    - Vittoria
+    - IT
+    - ITXX0226
+    - true
+    - "36.9497"
+    - "14.5355"
+    - 2009-02-17 14:32:32
+    - 2009-02-17 14:32:32
+  - - "238"
+    - 
+    - Giardini Naxos ME, Italy
+    - 
+    - city
+    - Sicily
+    - Giardini Naxos
+    - IT
+    - ITXX0367
+    - true
+    - "37.8253"
+    - "15.2668"
+    - 2009-02-17 14:32:32
+    - 2009-02-17 14:32:32
+  - - "239"
+    - 
+    - Acquapendente VT, Italy
+    - 
+    - city
+    - Latium
+    - Acquapendente
+    - IT
+    - ITXX0358
+    - true
+    - "42.7448"
+    - "11.8652"
+    - 2009-02-17 14:32:33
+    - 2009-02-17 14:32:33
+  - - "240"
+    - 
+    - Campobasso, Italy
+    - 
+    - city
+    - Molise
+    - Campobasso
+    - IT
+    - ITXX0112
+    - true
+    - "41.5601"
+    - "14.6648"
+    - 2009-02-17 14:32:33
+    - 2009-02-17 14:32:33
+  - - "241"
+    - 
+    - Caltanissetta CL, Italy
+    - 
+    - city
+    - Sicily
+    - Caltanissetta
+    - IT
+    - ITXX0111
+    - true
+    - "37.4899"
+    - "14.0633"
+    - 2009-02-17 14:32:33
+    - 2009-02-17 14:32:33
+  - - "242"
+    - 
+    - Montespertoli FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Montespertoli
+    - IT
+    - ITXX0311
+    - true
+    - "43.6429"
+    - "11.0766"
+    - 2009-02-17 14:32:34
+    - 2009-02-17 14:32:34
+  - - "243"
+    - Via Trento
+    - Cles TN, Italy
+    - "38023"
+    - city
+    - "Trentino-Alto Adige/S\xC3\xBCdtirol"
+    - Cles
+    - IT
+    - ITXX0258
+    - true
+    - "46.3661"
+    - "11.0341"
+    - 2009-02-17 14:32:34
+    - 2009-02-17 14:32:34
+  - - "244"
+    - 
+    - Matelica MC, Italy
+    - 
+    - city
+    - Marken
+    - Matelica
+    - IT
+    - ITXX0129
+    - true
+    - "43.255"
+    - "13.0116"
+    - 2009-02-17 14:32:35
+    - 2009-02-17 14:32:35
+  - - "245"
+    - 
+    - Castenaso BO, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Castenaso
+    - IT
+    - ITXX0016
+    - true
+    - "44.5091"
+    - "11.4692"
+    - 2009-02-17 14:32:35
+    - 2009-02-17 14:32:35
+  - - "246"
+    - 
+    - Alessandria AL, Italy
+    - 
+    - city
+    - Piedmont
+    - Alessandria
+    - IT
+    - ITXX0106
+    - true
+    - "44.9132"
+    - "8.61695"
+    - 2009-02-17 14:32:36
+    - 2009-02-17 14:32:36
+  - - "247"
+    - 
+    - Arezzo AR, Italy
+    - 
+    - city
+    - Tuscany
+    - Arezzo
+    - IT
+    - ITXX0251
+    - true
+    - "43.4712"
+    - "11.8631"
+    - 2009-02-17 14:32:36
+    - 2009-02-17 14:32:36
+  - - "248"
+    - 
+    - Colle di Val d'Elsa SI, Italy
+    - 
+    - city
+    - Toscana
+    - Colle Di Val D'Elsa
+    - IT
+    - ITXX0330
+    - true
+    - "43.4163"
+    - "11.1325"
+    - 2009-02-17 14:32:37
+    - 2009-02-17 14:32:37
+  - - "249"
+    - 
+    - Barletta BA, Italy
+    - 
+    - city
+    - Puglia
+    - Barletta
+    - IT
+    - ITXX0004
+    - true
+    - "41.3193"
+    - "16.284"
+    - 2009-02-17 14:32:37
+    - 2009-02-17 14:32:37
+  - - "250"
+    - 
+    - Este PD, Italy
+    - 
+    - city
+    - Veneto
+    - Este
+    - IT
+    - ITXX0247
+    - true
+    - "45.2276"
+    - "11.6566"
+    - 2009-02-17 14:32:38
+    - 2009-02-17 14:32:38
+  - - "251"
+    - 
+    - Pisa PI, Italy
+    - 
+    - city
+    - Tuscany
+    - Pisa
+    - IT
+    - ITXX0059
+    - true
+    - "43.7161"
+    - "10.3966"
+    - 2009-02-17 14:32:38
+    - 2009-02-17 14:32:38
+  - - "252"
+    - 
+    - Falconara, Italy
+    - 
+    - 
+    - 
+    - 
+    - IT
+    - ITXX0102
+    - true
+    - "43.616"
+    - "13.362"
+    - 2009-02-17 14:32:39
+    - 2009-02-17 14:32:39
+  - - "253"
+    - 
+    - Foggia FG, Italy
+    - 
+    - city
+    - Puglia
+    - Foggia
+    - IT
+    - ITXX0119
+    - true
+    - "41.4623"
+    - "15.5447"
+    - 2009-02-17 14:32:39
+    - 2009-02-17 14:32:39
+  - - "254"
+    - 
+    - Positano SA, Italy
+    - 
+    - city
+    - Campania
+    - Positano
+    - IT
+    - ITXX0361
+    - true
+    - "40.6299"
+    - "14.4863"
+    - 2009-02-17 14:32:40
+    - 2009-02-17 14:32:40
+  - - "255"
+    - 
+    - Trapani TP, Italy
+    - 
+    - city
+    - Sicily
+    - Trapani
+    - IT
+    - ITXX0077
+    - true
+    - "38.0171"
+    - "12.518"
+    - 2009-02-17 14:32:41
+    - 2009-02-17 14:32:41
+  - - "256"
+    - 
+    - Quartu Sant'Elena CA, Italy
+    - 
+    - city
+    - Sardinia
+    - Quartu Sant'Elena
+    - IT
+    - ITXX0063
+    - true
+    - "39.2415"
+    - "9.18343"
+    - 2009-02-17 14:32:41
+    - 2009-02-17 14:32:41
+  - - "257"
+    - 
+    - Empoli FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Empoli
+    - IT
+    - ITXX0026
+    - true
+    - "43.7186"
+    - "10.9425"
+    - 2009-02-17 14:32:42
+    - 2009-02-17 14:32:42
+  - - "258"
+    - 
+    - Bobbio PC, Italy
+    - 
+    - city
+    - Emilia-Romagna
+    - Bobbio
+    - IT
+    - ITXX0246
+    - true
+    - "44.7716"
+    - "9.38641"
+    - 2009-02-17 14:32:42
+    - 2009-02-17 14:32:42
+  - - "259"
+    - 
+    - Firenze, Italy
+    - 
+    - city
+    - Tuscany
+    - Firenze
+    - IT
+    - ITXX0028
+    - true
+    - "43.7687"
+    - "11.2569"
+    - 2009-02-17 14:32:42
+    - 2009-02-17 14:32:42
+  - - "260"
+    - 
+    - Caserta CE, Italy
+    - 
+    - city
+    - Campania
+    - Caserta
+    - IT
+    - ITXX0014
+    - true
+    - "41.0754"
+    - "14.3322"
+    - 2009-02-17 14:32:43
+    - 2009-02-17 14:32:43
+  - - "261"
+    - 
+    - Messina ME, Italy
+    - 
+    - city
+    - Sicily
+    - Messina
+    - IT
+    - ITXX0040
+    - true
+    - "38.1922"
+    - "15.5567"
+    - 2009-02-17 14:32:43
+    - 2009-02-17 14:32:43
+  - - "262"
+    - Via Monte Sant'Angelo
+    - Via Monte Sant'Angelo, 86027 San Massimo CB, Italy
+    - "86027"
+    - zip+4
+    - Molise
+    - San Massimo
+    - IT
+    - ITXX0130
+    - true
+    - "41.4968"
+    - "14.418"
+    - 2009-02-17 14:32:46
+    - 2009-02-17 14:32:46
+  - - "263"
+    - 
+    - San Remo IM, Italy
+    - 
+    - city
+    - Ligurie
+    - San Remo
+    - IT
+    - ITXX0070
+    - true
+    - "43.8184"
+    - "7.77842"
+    - 2009-02-17 14:32:46
+    - 2009-02-17 14:32:46
+  - - "264"
+    - 
+    - Savona SV, Italy
+    - 
+    - city
+    - Ligurie
+    - Savona
+    - IT
+    - ITXX0071
+    - true
+    - "44.3111"
+    - "8.47725"
+    - 2009-02-17 14:32:47
+    - 2009-02-17 14:32:47
+  - - "265"
+    - 
+    - Trento, Italy
+    - 
+    - city
+    - Trentino-Alto Adige
+    - Trento
+    - IT
+    - ITXX0078
+    - true
+    - "46.0703"
+    - "11.1216"
+    - 2009-02-17 14:32:47
+    - 2009-02-17 14:32:47
+  - - "266"
+    - 
+    - Gubbio PG, Italy
+    - 
+    - city
+    - Umbrien
+    - Gubbio
+    - IT
+    - ITXX0352
+    - true
+    - "43.3555"
+    - "12.5734"
+    - 2009-02-17 14:32:47
+    - 2009-02-17 14:32:47
+  - - "267"
+    - 
+    - Garda VR, Italy
+    - 
+    - city
+    - Veneto
+    - Garda
+    - IT
+    - ITXX0301
+    - true
+    - "45.5746"
+    - "10.7077"
+    - 2009-02-17 14:32:48
+    - 2009-02-17 14:32:48
+  - - "268"
+    - 
+    - Terni TR, Italy
+    - 
+    - city
+    - Umbrien
+    - Terni
+    - IT
+    - ITXX0074
+    - true
+    - "42.5602"
+    - "12.6468"
+    - 2009-02-17 14:32:48
+    - 2009-02-17 14:32:48
+  - - "269"
+    - 
+    - Villa Santina UD, Italy
+    - 
+    - city
+    - Friaul-Julisch-Venetien
+    - Villa Santina
+    - IT
+    - ITXX0168
+    - true
+    - "46.416"
+    - "12.923"
+    - 2009-02-17 14:32:49
+    - 2009-02-17 14:32:49
+  - - "270"
+    - 
+    - Pescina AQ, Italy
+    - 
+    - city
+    - Abruzzi
+    - Pescina
+    - IT
+    - ITXX0138
+    - true
+    - "42.0263"
+    - "13.6596"
+    - 2009-02-17 14:32:49
+    - 2009-02-17 14:32:49
+  - - "271"
+    - 
+    - Viareggio LU, Italy
+    - 
+    - city
+    - Tuscany
+    - Viareggio
+    - IT
+    - ITXX0194
+    - true
+    - "43.8745"
+    - "10.2569"
+    - 2009-02-17 14:32:49
+    - 2009-02-17 14:32:49
+  - - "272"
+    - 
+    - Perugia, Italy
+    - 
+    - city
+    - Umbrien
+    - Perugia
+    - IT
+    - ITXX0136
+    - true
+    - "43.1107"
+    - "12.3892"
+    - 2009-02-17 14:32:50
+    - 2009-02-17 14:32:50
+  - - "273"
+    - 
+    - Castellammare del Golfo TP, Italy
+    - 
+    - city
+    - Sicily
+    - Castellammare Del Golfo
+    - IT
+    - ITXX0366
+    - true
+    - "38.02"
+    - "12.8869"
+    - 2009-02-17 14:32:50
+    - 2009-02-17 14:32:50
+  - - "274"
+    - 
+    - Gela CL, Italy
+    - 
+    - city
+    - Sicily
+    - Gela
+    - IT
+    - ITXX0191
+    - true
+    - "37.0662"
+    - "14.2504"
+    - 2009-02-17 14:32:51
+    - 2009-02-17 14:32:51
+  - - "275"
+    - 
+    - Olbia Olbia-Tempio, Italy
+    - 
+    - city
+    - Sardinia
+    - Olbia
+    - IT
+    - ITXX0252
+    - true
+    - "40.9225"
+    - "9.48685"
+    - 2009-02-17 14:32:51
+    - 2009-02-17 14:32:51
+  - - "276"
+    - 
+    - Ascoli Piceno AP, Italy
+    - 
+    - city
+    - Marken
+    - Ascoli Piceno
+    - IT
+    - ITXX0104
+    - true
+    - "42.8554"
+    - "13.575"
+    - 2009-02-17 14:32:52
+    - 2009-02-17 14:32:52
+  - - "277"
+    - 
+    - Sirmione BS, Italy
+    - 
+    - city
+    - Lombardy
+    - Sirmione
+    - IT
+    - ITXX0304
+    - true
+    - "45.4925"
+    - "10.6081"
+    - 2009-02-17 14:32:52
+    - 2009-02-17 14:32:52
+  - - "278"
+    - 
+    - Varese VA, Italy
+    - 
+    - city
+    - Lombardy
+    - Varese
+    - IT
+    - ITXX0082
+    - true
+    - "45.8176"
+    - "8.82638"
+    - 2009-02-17 14:32:53
+    - 2009-02-17 14:32:53
+  - - "279"
+    - 
+    - Altamura BA, Italy
+    - 
+    - city
+    - Puglia
+    - Altamura
+    - IT
+    - ITXX0235
+    - true
+    - "40.8303"
+    - "16.5545"
+    - 2009-02-17 14:32:53
+    - 2009-02-17 14:32:53
+  - - "280"
+    - 
+    - Pordenone, Italy
+    - 
+    - state
+    - Friaul-Julisch-Venetien
+    - 
+    - IT
+    - ITXX0135
+    - true
+    - "46.0379"
+    - "12.7108"
+    - 2009-02-17 14:32:53
+    - 2009-02-17 14:32:53
+  - - "281"
+    - 
+    - Fivizzano MS, Italy
+    - 
+    - city
+    - Tuscany
+    - Fivizzano
+    - IT
+    - ITXX0197
+    - true
+    - "44.2394"
+    - "10.127"
+    - 2009-02-17 14:32:54
+    - 2009-02-17 14:32:54
+  - - "282"
+    - 
+    - Sardinia, Italy
+    - 
+    - state
+    - Sardinia
+    - 
+    - IT
+    - ITXX0187
+    - true
+    - "40.1209"
+    - "9.01289"
+    - 2009-02-17 14:32:54
+    - 2009-02-17 14:32:54
+  - - "283"
+    - 
+    - Sant'Antonio di Santadi, Arbus Medio Campidano, Italy
+    - 
+    - city
+    - Sardinia
+    - Arbus
+    - IT
+    - ITXX0217
+    - true
+    - "39.7134"
+    - "8.48612"
+    - 2009-02-17 14:32:55
+    - 2009-02-17 14:32:55
+  - - "284"
+    - 
+    - Vatican City, Vatican City
+    - 
+    - city
+    - 
+    - Vatican City
+    - VA
+    - ITXX0083
+    - true
+    - "41.9023"
+    - "12.4581"
+    - 2009-02-17 14:32:55
+    - 2009-02-17 14:32:55
+  - - "285"
+    - 
+    - Cortina d'Ampezzo BL, Italy
+    - 
+    - city
+    - Veneto
+    - Cortina D'Ampezzo
+    - IT
+    - ITXX0115
+    - true
+    - "46.5374"
+    - "12.1389"
+    - 2009-02-17 14:32:56
+    - 2009-02-17 14:32:56
+  - - "286"
+    - 
+    - Moscufo PE, Italy
+    - 
+    - city
+    - Abruzzi
+    - Moscufo
+    - IT
+    - ITXX0050
+    - true
+    - "42.4274"
+    - "14.0544"
+    - 2009-02-17 14:32:56
+    - 2009-02-17 14:32:56
+  - - "287"
+    - 
+    - Chieti CH, Italy
+    - 
+    - city
+    - Abruzzi
+    - Chieti
+    - IT
+    - ITXX0018
+    - true
+    - "42.3518"
+    - "14.1672"
+    - 2009-02-17 14:32:56
+    - 2009-02-17 14:32:56
+  - - "288"
+    - 
+    - Barberino Val d'Elsa FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Barberino Val D'Elsa
+    - IT
+    - ITXX0326
+    - true
+    - "43.5421"
+    - "11.1708"
+    - 2009-02-17 14:32:57
+    - 2009-02-17 14:32:57
+  - - "289"
+    - 
+    - Monopoli BA, Italy
+    - 
+    - city
+    - Puglia
+    - Monopoli
+    - IT
+    - ITXX0047
+    - true
+    - "40.9571"
+    - "17.2905"
+    - 2009-02-17 14:32:57
+    - 2009-02-17 14:32:57
+  - - "290"
+    - 
+    - Civitavecchia RM, Italy
+    - 
+    - city
+    - Latium
+    - Civitavecchia
+    - IT
+    - ITXX0022
+    - true
+    - "42.0912"
+    - "11.7968"
+    - 2009-02-17 14:32:58
+    - 2009-02-17 14:32:58
+  - - "291"
+    - 
+    - Termini Imerese PA, Italy
+    - 
+    - city
+    - Sicily
+    - Termini Imerese
+    - IT
+    - ITXX0254
+    - true
+    - "37.9839"
+    - "13.6963"
+    - 2009-02-17 14:32:58
+    - 2009-02-17 14:32:58
+  - - "292"
+    - 
+    - Udine, Italy
+    - 
+    - state
+    - Friaul-Julisch-Venetien
+    - 
+    - IT
+    - ITXX0163
+    - true
+    - "46.1408"
+    - "13.1663"
+    - 2009-02-17 14:32:58
+    - 2009-02-17 14:32:58
+  - - "293"
+    - 
+    - Venaria, Italy
+    - 
+    - city
+    - Piedmont
+    - Venaria
+    - IT
+    - ITXX0084
+    - true
+    - "45.1451"
+    - "7.61311"
+    - 2009-02-17 14:32:59
+    - 2009-02-17 14:32:59
+  - - "294"
+    - 
+    - Pantelleria TP, Italy
+    - 
+    - city
+    - Sicily
+    - Pantelleria
+    - IT
+    - ITXX0219
+    - true
+    - "36.829"
+    - "11.9436"
+    - 2009-02-17 14:32:59
+    - 2009-02-17 14:32:59
+  - - "295"
+    - 
+    - Apecchio PU, Italy
+    - 
+    - city
+    - Marken
+    - Apecchio
+    - IT
+    - ITXX0308
+    - true
+    - "43.5593"
+    - "12.422"
+    - 2009-02-17 14:33:00
+    - 2009-02-17 14:33:00
+  - - "296"
+    - 
+    - Palmi Reggio de Calabre, Italy
+    - 
+    - city
+    - Calabre
+    - Palmi
+    - IT
+    - ITXX0229
+    - true
+    - "38.3524"
+    - "15.8363"
+    - 2009-02-17 14:33:00
+    - 2009-02-17 14:33:00
+  - - "297"
+    - 
+    - Mola di Bari BA, Italy
+    - 
+    - city
+    - Puglia
+    - Mola Di Bari
+    - IT
+    - ITXX0044
+    - true
+    - "41.062"
+    - "17.0881"
+    - 2009-02-17 14:33:01
+    - 2009-02-17 14:33:01
+  - - "298"
+    - 
+    - Reggio Emilia Reggio nell'Emilia, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Reggio Emilia
+    - IT
+    - ITXX0065
+    - true
+    - "44.6981"
+    - "10.6308"
+    - 2009-02-17 14:33:01
+    - 2009-02-17 14:33:01
+  - - "299"
+    - 
+    - Parma PR, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Parma
+    - IT
+    - ITXX0140
+    - true
+    - "44.8044"
+    - "10.3325"
+    - 2009-02-17 14:33:02
+    - 2009-02-17 14:33:02
+  - - "300"
+    - 
+    - Bagheria PA, Italy
+    - 
+    - city
+    - Sicily
+    - Bagheria
+    - IT
+    - ITXX0220
+    - true
+    - "38.0783"
+    - "13.507"
+    - 2009-02-17 14:33:02
+    - 2009-02-17 14:33:02
+  - - "301"
+    - 
+    - Guardia Lombardi AV, Italy
+    - 
+    - city
+    - Campania
+    - Guardia Lombardi
+    - IT
+    - ITXX0224
+    - true
+    - "40.9549"
+    - "15.2099"
+    - 2009-02-17 14:33:02
+    - 2009-02-17 14:33:02
+  - - "302"
+    - 
+    - Amalfi SA, Italy
+    - 
+    - city
+    - Campania
+    - Amalfi
+    - IT
+    - ITXX0371
+    - true
+    - "40.6344"
+    - "14.6026"
+    - 2009-02-17 14:33:03
+    - 2009-02-17 14:33:03
+  - - "303"
+    - 
+    - Amendola, 83036 Mirabella Eclano AV, Italy
+    - 
+    - city
+    - Campania
+    - Mirabella Eclano
+    - IT
+    - ITXX0094
+    - true
+    - "41.0475"
+    - "15.0219"
+    - 2009-02-17 14:33:04
+    - 2009-02-17 14:33:04
+  - - "304"
+    - 
+    - Sorrento NA, Italy
+    - 
+    - city
+    - Campania
+    - Sorrento
+    - IT
+    - ITXX0073
+    - true
+    - "40.6263"
+    - "14.3757"
+    - 2009-02-17 14:33:05
+    - 2009-02-17 14:33:05
+  - - "305"
+    - 
+    - Tavarnelle Val di Pesa FI, Italy
+    - 
+    - city
+    - Tuscany
+    - Tavarnelle Val Di Pesa
+    - IT
+    - ITXX0334
+    - true
+    - "43.5628"
+    - "11.1725"
+    - 2009-02-17 14:33:05
+    - 2009-02-17 14:33:05
+  - - "306"
+    - 
+    - Amelia TR, Italy
+    - 
+    - city
+    - Umbria
+    - Amelia
+    - IT
+    - ITXX0353
+    - true
+    - "42.5572"
+    - "12.4134"
+    - 2009-02-17 14:33:06
+    - 2009-02-17 14:33:06
+  - - "307"
+    - 
+    - Livigno Sudovest, Italy
+    - 
+    - city
+    - Lombardy
+    - Livigno
+    - IT
+    - ITXX0185
+    - true
+    - "46.5451"
+    - "10.1413"
+    - 2009-02-17 14:33:06
+    - 2009-02-17 14:33:06
+  - - "308"
+    - 
+    - Chivasso TO, Italy
+    - 
+    - city
+    - Piedmont
+    - Chivasso
+    - IT
+    - ITXX0020
+    - true
+    - "45.1899"
+    - "7.88426"
+    - 2009-02-17 14:33:07
+    - 2009-02-17 14:33:07
+  - - "309"
+    - 
+    - Ravenna RA, Italy
+    - 
+    - city
+    - Emilia Romagna
+    - Ravenna
+    - IT
+    - ITXX0150
+    - true
+    - "44.4157"
+    - "12.1966"
+    - 2009-02-17 14:33:07
+    - 2009-02-17 14:33:07

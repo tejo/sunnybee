@@ -1,0 +1,197 @@
+Oggi faremo in diretta quest'applicazione che si chiama sunnybee.
+
+(sunny)
+
+Per mostrarvi rails, dandovi qualche nozione in modo da incuriosirvi e farvi venir voglia di approfondirne la sua conoscenza.
+
+Per far ciò utilizzeremo 2 librerie ruby (dette gems), la prima è geokit(geocoding, calcolo di prossimità), 
+le seconda è yahoo-weather(per interrogare i servizi meteo di yahoo)
+
+(fare vedere tests)
+
+
+
+Non ho trovato nessun tipo di servizio free che permettesse di conoscere le condizioni meteo 
+di una località partendo da un cap o da una città qulasiasi.(se ce ne sta qualcuno, non ditemelo, plz)
+I servizi che ho provato (yahoo-weather e weather.com) danno la possibilià di ottenere informazioni meteo 
+soltanto a partire da una delle loro stazioni di rilevamento, da qui in poi locationID.
+
+La soluzione pensata è quella di geolocalizzare la lista di locationID di yahoo, 
+( far vedere lista) questo ci da la possibilità di reperire la locationID più vicina alla località richiesta che
+utilizzeremo poi per interrogare il servizio meteo di yahoo.
+
+
+
+
+
+
+Basta inserire il nome di una città o un cap per sapere se c'è il sole o no.
+
+L'idea è quella di clonare la funzionalità principale del sito http://www.umbrellatoday.com/ . 
+(aprire il sito e far vedere)
+
+L'applicazione che creeremo si chiama sunnybee, quindi:
+
+cap / località ->  sole/non sole
+
+
+
+
+
+
+
+Creazione applicazione (se c'è tempo breve intro su rails template)
+
+  rails sunnybee -d mysql -m netcamp_template.rb
+  
+Creazione modello MeteoLocation (breve intro su migrazioni di rails?) (mvc)
+
+ script/generate model MeteoLocation
+
+Definiamo i campi del modello
+
+  create_table :meteo_locations do |t|
+    t.string  :street_address, :full_address, :zip, :precision, :state, :city, :country_code,:location_id
+    t.boolean :success
+    t.float :lat, :lng
+    t.timestamps
+  end
+
+Creiamo database e tabella
+  
+  rake db:create
+  rake db:migrate
+  
+Ora popoleremo la tabella delle meteo location con la lista di locationID georeferenziate tramite il plugin geokit.
+Per fare ciò utilizzeremo un task:
+
+  namespace :populate do
+    desc "geocode yahoo locations"
+    task(:geocode => :environment) do
+
+      locs = open("#{RAILS_ROOT}/db/location.yml") { |f| YAML.load(f) }
+      require 'geokit'
+      locs.each_key do |k|
+        puts "#{k},#{locs[k]}"
+        geo =  Geokit::Geocoders::GoogleGeocoder.geocode(k+', italy')
+        MeteoLocation.create!(:street_address => geo.street_address, 
+                              :lat => geo.lat,
+                              :lng => geo.lng,
+                              :full_address => geo.full_address,
+                              :zip => geo.zip,
+                              :precision => geo.precision,
+                              :state => geo.state,
+                              :success => geo.success,
+                              :city => geo.city,
+                              :country_code => geo.country_code,     
+                              :location_id => locs[k]) if geo.success
+      end
+
+
+
+    end
+  end
+
+Ora interrompiamo il processo e carichiamo i dati da un dump
+
+  rake db:data:load   
+  
+Ora aggiungeremo dei metodi al modello logico
+  
+require 'yahoo-weather'
+acts_as_mappable
+
+def self.valid_geocode?(geo)
+  geo.success && geo.city!=nil && geo.country_code == 'IT'
+end
+
+def self.meteo_lookup(location_id)
+  client = YahooWeather::Client.new
+  begin
+    client.lookup_location(location_id,'c')
+  rescue
+    nil
+  end
+end
+
+def self.geo_locate(location)
+  Geokit::Geocoders::MultiGeocoder.geocode(location+', italy')
+end
+
+def self.meteo_info_for(location)
+  geo = self.geo_locate(location)
+  if self.valid_geocode?(geo)
+    meteo_station = self.find_closest(:origin => geo)
+    res = self.meteo_lookup(meteo_station.location_id)
+    #log infos 
+    logger.info geo.city.to_s + ' ' + geo.country_code.to_s
+    logger.info meteo_station.location_id + ' ' + meteo_station.city
+    logger.info geo.inspect
+    logger.info res.inspect
+  else
+    res = nil
+  end
+  res
+end
+
+class << self; extend ActiveSupport::Memoizable; self; end.memoize :meteo_info_for
+
+  
+Ora proveremo il corretto comportamentdo del modello logico da console  
+  
+  geo =  MeteoLocation.geo_locate('27058')
+  meteo_station = MeteoLocation.find_closest(:origin => geo)
+  MeteoLocation.meteo_lookup(meteo_station.location_id)
+  
+Ora passiamo alla parte di visualizzazione della applicazione, creiamo un controller e delle azioni
+
+  script/generate controller Meteos index lookup
+
+
+In meteos_controller:
+
+def lookup
+  @res = MeteoLocation.meteo_info_for(params[:location])
+  respond_to do |format|
+    if @res
+      @sun = [19, 25, 31, 32, 33, 34, 36].include?(@res.condition.code.to_i)
+      format.html
+      format.xml 
+    else
+      flash[:notice] = 'Informazioni non disponibili'
+      format.html { render :action => "index" }
+      format.xml  { render :xml => '<lookup><error>'+flash[:notice]+'</error></lookup>' }
+    end
+  end
+end
+
+Nelle viste, in index:
+
+<%if flash[:notice]%><div id="error"><span id="notice"><%= flash[:notice] %></span></div><%end%>
+<% form_tag lookup_meteo_url, :method => :get do -%> 
+    <%= text_field_tag :location, params[:location] %> 
+    <%= submit_tag '' ,:class => 'submit_btn'%> 
+<% end -%>
+
+
+In lookup
+
+<div class="res <%=  @sun ? 'sole' : 'no_sole' %>">
+<div id="desc">
+  <%=@res.description%>
+  <img src="<%=@res.image_url%>" />
+</div>
+<div>
+  
+Aggiungiamo anche l'output xml
+
+  lookup.xml.erb
+  
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<lookup>
+    <title><%=@res.title%></title>
+    <condition><%=@res.condition.text%></condition>
+    <umbrella><%=@sun ? 'false' : 'true' %></umbrella> 
+</lookup>
+  
+  

@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    <%= include_iui_files %>
+  </head>
+ 
+  <body>
+    <div class="toolbar">
+    <h1 id="pageTitle"></h1>
+    </div>
+    <%if flash[:notice]%><div id="error"><span id="notice"><%= flash[:notice] %></span></div><%end%>
+    <% form_tag lookup_meteo_url, :method => :post , :id=>"sunnybee", :title=>"Sunnybee?", :class=>"panel", :selected=>"true"  do -%> 
+        <h2>Scopri se c'è il sole nella tua città</h2>        
+        <fieldset>
+            <div class="row">
+                <label>Località</label>
+                <%= text_field_tag :location, params[:location] %>
+            </div>
+        </fieldset>
+       <%= submit_tag 'Invia' ,:class => 'whiteButton'%>
+    <% end -%>
+  </body>
+ 
+</html>
+

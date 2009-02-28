@@ -1,0 +1,5 @@
+<%if flash[:notice]%><div id="error"><span id="notice"><%= flash[:notice] %></span></div><%end%>
+<% form_tag lookup_meteo_url, :method => :get do -%> 
+    <%= text_field_tag :location, params[:location] %> 
+    <%= submit_tag '' ,:class => 'submit_btn'%> 
+<% end -%>

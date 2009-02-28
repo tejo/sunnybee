@@ -1,0 +1,14 @@
+html, body{margin:0;padding:0;}
+form {display:inline;margin:0;padding:0;}
+div#home {z-index:0;width:1024px; height:808px;background: url(/images/home.png) 0 0 no-repeat;}
+#location {position:absolute; top:305px; left:342px; width:335px;font-size:21px;text-align:center;color:#717171;}
+.submit_btn {background-image: url(/images/invia.png); width:60px;height:30px;position:absolute; top:350px; left:623px; }
+#error {z-index:1;position:absolute; top:185px; left:323px; width:379px; height:46px; background-image: url(/images/error.png);}
+.sole {z-index:2;width:1024px; height:808px;border: 0px solid red; background-image: url(/images/sun.png);}
+.no_sole {z-index:2;width:1024px; height:808px;border: 0px solid red; background-image: url(/images/no_sun.png);}
+#notice {display:none;}
+#desc {display:none;}
+.link span {display:none;}
+#homelink {position:absolute;top:35px; left:290px; display:block;border: 0px solid red; width:450px;height:100px;}
+#awarelink  {position:absolute;top:760px; left:10px; display:block;border: 0px solid red; width:90px;height:50px;}
+#beeawarelink {position:absolute;top:760px; left:880px; display:block;border: 0px solid red; width:130px;height:50px;}
